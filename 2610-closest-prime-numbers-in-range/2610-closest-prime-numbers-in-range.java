@@ -1,42 +1,57 @@
 class Solution {
     public int[] closestPrimes(int left, int right) {
         
-        int MAX = 1000000;
-        boolean[] isPrime = new boolean[MAX + 1];
-        Arrays.fill(isPrime, true);
-        isPrime[0] = isPrime[1] = false;
-        
-        for (int i = 2; i * i <= MAX; i++) {
-            if (isPrime[i]) {
-                for (int j = i * i; j <= MAX; j += i) {
-                    isPrime[j] = false;
+       List<Integer> primeNumbers = new ArrayList<>();
+ 
+        for (int candidate = left; candidate <= right; candidate++) {
+            if (candidate % 2 == 0 && candidate > 2) {
+                continue;
+            }
+            if (isPrime(candidate)) { 
+                if (
+                    !primeNumbers.isEmpty() &&
+                    candidate <= primeNumbers.get(primeNumbers.size() - 1) + 2
+                ) {
+                    return new int[] {
+                        primeNumbers.get(primeNumbers.size() - 1),
+                        candidate,
+                    };
                 }
+                primeNumbers.add(candidate);
             }
         }
-        
-        List<Integer> primesInRange = new ArrayList<>();
-        for (int i = left; i <= right; i++) {
-            if (isPrime[i]) {
-                primesInRange.add(i);
+ 
+        if (primeNumbers.size() < 2) {
+            return new int[] { -1, -1 };
+        }
+ 
+        int[] closestPair = new int[] { -1, -1 };
+        int minDifference = 1000000;
+        for (int index = 1; index < primeNumbers.size(); index++) {
+            int difference =
+                primeNumbers.get(index) - primeNumbers.get(index - 1);
+            if (difference < minDifference) {
+                minDifference = difference;
+                closestPair = new int[] {
+                    primeNumbers.get(index - 1),
+                    primeNumbers.get(index),
+                };
             }
         }
-        
-        if (primesInRange.size() < 2) {
-            return new int[] {-1, -1};
-        }
-        
-        int minDiff = Integer.MAX_VALUE;
-        int[] result = new int[2];
-        
-        for (int i = 1; i < primesInRange.size(); i++) {
-            int diff = primesInRange.get(i) - primesInRange.get(i - 1);
-            if (diff < minDiff) {
-                minDiff = diff;
-                result[0] = primesInRange.get(i - 1);
-                result[1] = primesInRange.get(i);
-            }
-        }
-        
-        return result;
+
+        return closestPair;
     }
+ 
+    private boolean isPrime(int number) {
+        if (number == 1) {
+            return false;
+        }
+        for (int divisor = 2; divisor <= (int) Math.sqrt(number); divisor++) {
+            if (number % divisor == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+    
 }
