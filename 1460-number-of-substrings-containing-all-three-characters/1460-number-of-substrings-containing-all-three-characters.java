@@ -1,23 +1,23 @@
 class Solution {
     public int numberOfSubstrings(String s) {
-        int n = s.length();
-        int result = 0;
-        int[] mp = new int[3];
-        int i = 0, j = 0;
-
-        while (j < n) {
-            char ch = s.charAt(j);
-            mp[ch - 'a']++;
-
-            while (mp[0] > 0 && mp[1] > 0 && mp[2] > 0) {
-                result += (n - j);
-                mp[s.charAt(i) - 'a']--;
-                i++;
-            }
-
-            j++;
+        char[] ch = s.toCharArray();
+        int[] abc = new int[3];
+        for(int i=0; i<abc.length; i++)
+        {
+            abc[i] = -1;
         }
-
-        return result;
+        int count = 0, right = 0;
+        while(right < ch.length)
+        {
+            abc[ch[right] - 'a'] = right;
+            int min = Integer.MAX_VALUE;
+            for(int i=0; i<3; i++)
+            {
+                min = Math.min(min, abc[i]);
+            }
+            count += (min+1);
+            right++;
+        }
+        return count;
     }
 }
