@@ -1,27 +1,35 @@
 class Solution {
-public:
-    bool canRob(vector<int>& nums, int mid, int k) {
-        int count = 0, n = nums.size();
-        for (int i = 0; i < n; i++) {
-            if (nums[i] <= mid) {
-                count++;
+    bool isPossible(vector<int> &arr, int k, int maxi) {
+        int n = arr.size();
+        int i = 0;
+        while(i < n) {
+            if(arr[i] <= maxi) {
+                i += 2;
+                k--;
+            } else {
                 i++;
             }
-        }
-        return count >= k;
-    }
-    int minCapability(vector<int>& nums, int k) {
-        int left = *min_element(nums.begin(), nums.end());
-        int right = *max_element(nums.begin(), nums.end());
-        int ans = right;
 
-        while (left <= right) {
-            int mid = (left + right) / 2;
-            if (canRob(nums, mid, k)) {
+            if(k == 0) {
+                return true;
+            }
+        }
+        return false;
+    }
+public:
+    int minCapability(vector<int>& arr, int k) {
+        int n = arr.size();
+        int low = *min_element(arr.begin(), arr.end());
+        int high = *max_element(arr.begin(), arr.end());
+
+        int ans = -1;
+        while(low <= high) {
+            int mid = (low + high) / 2;
+            if(isPossible(arr, k, mid)) {
                 ans = mid;
-                right = mid - 1;
+                high = mid - 1;
             } else {
-                left = mid + 1;
+                low = mid + 1;
             }
         }
         return ans;
