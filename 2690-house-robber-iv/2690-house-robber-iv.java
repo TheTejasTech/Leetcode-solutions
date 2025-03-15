@@ -1,28 +1,30 @@
 class Solution {
-    public static boolean canRob(int[] nums, int mid, int k) {
-        int count = 0, n = nums.length;
-        for (int i = 0; i < n; i++) {
-            if (nums[i] <= mid) {
-                count++;
-                i++;  
-            }
-        }
-        return count >= k;
-    }
-    public int minCapability(int[] nums, int k) {
-        int left = Arrays.stream(nums).min().getAsInt();
-        int right = Arrays.stream(nums).max().getAsInt();
-        int ans = right;
+    public int minCapability(int[] a, int k) {
+        int n = a.length;
+        int lo = Integer.MAX_VALUE;
 
-        while (left <= right) {
-            int mid = (left + right) / 2;
-            if (canRob(nums, mid, k)) {
-                ans = mid;
-                right = mid - 1;
-            } else {
-                left = mid + 1;
+        for(int  x: a) lo = Math.min(lo, x);
+        int hi = 0;
+        for(int x: a) hi = Math.max(hi, x);
+
+        int ans = 0;
+        while(hi >= lo){
+            int mid = (lo + hi) / 2;
+            int max = 0;
+
+            for(int i = 0; i < n ;i++){
+                if(a[i] <= mid){
+                    i++;
+                    max++;
+                }
             }
+
+            if(max >= k){
+                hi = mid - 1;
+                ans = mid;
+            }
+            else lo = mid + 1;
         }
-        return ans;
+        return ans;       
     }
 }
