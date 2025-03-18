@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0274-h-index](https://github.com/tea7989/Leetcode-solutions/tree/master/0274-h-index) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/tea7989/Leetcode-solutions/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/tea7989/Leetcode-solutions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2308-divide-array-into-equal-pairs](https://github.com/tea7989/Leetcode-solutions/tree/master/2308-divide-array-into-equal-pairs) |
@@ -82,6 +83,7 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0274-h-index](https://github.com/tea7989/Leetcode-solutions/tree/master/0274-h-index) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -94,4 +96,8 @@
 |  |
 | ------- |
 | [2308-divide-array-into-equal-pairs](https://github.com/tea7989/Leetcode-solutions/tree/master/2308-divide-array-into-equal-pairs) |
+## Counting Sort
+|  |
+| ------- |
+| [0274-h-index](https://github.com/tea7989/Leetcode-solutions/tree/master/0274-h-index) |
 <!---LeetCode Topics End-->
