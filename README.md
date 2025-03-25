@@ -20,6 +20,7 @@
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3483-alternating-groups-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3483-alternating-groups-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3643-zero-array-transformation-ii) |
+| [3657-check-if-grid-can-be-cut-into-sections](https://github.com/tea7989/Leetcode-solutions/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Two Pointers
 |  |
 | ------- |
@@ -95,6 +96,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0274-h-index](https://github.com/tea7989/Leetcode-solutions/tree/master/0274-h-index) |
 | [3430-count-days-without-meetings](https://github.com/tea7989/Leetcode-solutions/tree/master/3430-count-days-without-meetings) |
+| [3657-check-if-grid-can-be-cut-into-sections](https://github.com/tea7989/Leetcode-solutions/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
