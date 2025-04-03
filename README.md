@@ -42,6 +42,7 @@
 ## Math
 |  |
 | ------- |
+| [1406-subtract-the-product-and-sum-of-digits-of-an-integer](https://github.com/tea7989/Leetcode-solutions/tree/master/1406-subtract-the-product-and-sum-of-digits-of-an-integer) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/tea7989/Leetcode-solutions/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/tea7989/Leetcode-solutions/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2610-closest-prime-numbers-in-range](https://github.com/tea7989/Leetcode-solutions/tree/master/2610-closest-prime-numbers-in-range) |
