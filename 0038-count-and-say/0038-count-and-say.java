@@ -1,19 +1,28 @@
 class Solution {
     public String countAndSay(int n) {
         String s = "1";
-        while (--n > 0) {
-            StringBuilder t = new StringBuilder();
-            for (int i = 0; i < s.length();) {
-                int j = i;
-                while (j < s.length() && s.charAt(j) == s.charAt(i)) {
-                    ++j;
-                }
-                t.append((j - i) + "");
-                t.append(s.charAt(i));
-                i = j;
-            }
-            s = t.toString();
+        for(int i=2; i<= n; i++){
+            s = countandAdd(s);
         }
         return s;
+    }
+    String countandAdd(String s){
+        StringBuilder currString = new StringBuilder();
+        char ch = s.charAt(0);
+        int count = 1;
+        for(int i=1; i<s.length(); i++){
+            if(s.charAt(i) == ch){
+                count++;
+            }
+            else{
+                currString.append(count);
+                currString.append(ch);
+                ch = s.charAt(i);
+                count = 1;
+            }
+        }
+        currString.append(count);
+        currString.append(ch);
+        return currString.toString();
     }
 }
