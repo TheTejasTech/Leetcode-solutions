@@ -8,6 +8,7 @@
 | [0274-h-index](https://github.com/tea7989/Leetcode-solutions/tree/master/0274-h-index) |
 | [0368-largest-divisible-subset](https://github.com/tea7989/Leetcode-solutions/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/tea7989/Leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
+| [0797-rabbits-in-forest](https://github.com/tea7989/Leetcode-solutions/tree/master/0797-rabbits-in-forest) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/tea7989/Leetcode-solutions/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1656-count-good-triplets](https://github.com/tea7989/Leetcode-solutions/tree/master/1656-count-good-triplets) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/tea7989/Leetcode-solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -54,6 +55,7 @@
 |  |
 | ------- |
 | [0368-largest-divisible-subset](https://github.com/tea7989/Leetcode-solutions/tree/master/0368-largest-divisible-subset) |
+| [0797-rabbits-in-forest](https://github.com/tea7989/Leetcode-solutions/tree/master/0797-rabbits-in-forest) |
 | [1406-subtract-the-product-and-sum-of-digits-of-an-integer](https://github.com/tea7989/Leetcode-solutions/tree/master/1406-subtract-the-product-and-sum-of-digits-of-an-integer) |
 | [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/tea7989/Leetcode-solutions/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/tea7989/Leetcode-solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -70,6 +72,7 @@
 |  |
 | ------- |
 | [0768-partition-labels](https://github.com/tea7989/Leetcode-solutions/tree/master/0768-partition-labels) |
+| [0797-rabbits-in-forest](https://github.com/tea7989/Leetcode-solutions/tree/master/0797-rabbits-in-forest) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/tea7989/Leetcode-solutions/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/tea7989/Leetcode-solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/tea7989/Leetcode-solutions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
@@ -226,6 +229,7 @@
 |  |
 | ------- |
 | [0768-partition-labels](https://github.com/tea7989/Leetcode-solutions/tree/master/0768-partition-labels) |
+| [0797-rabbits-in-forest](https://github.com/tea7989/Leetcode-solutions/tree/master/0797-rabbits-in-forest) |
 | [2681-put-marbles-in-bags](https://github.com/tea7989/Leetcode-solutions/tree/master/2681-put-marbles-in-bags) |
 | [3001-apply-operations-to-maximize-score](https://github.com/tea7989/Leetcode-solutions/tree/master/3001-apply-operations-to-maximize-score) |
 ## Monotonic Stack
