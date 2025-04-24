@@ -5,10 +5,10 @@ class Solution {
             s.add(x);
         }
         int cnt = s.size();
-        int ans = 0, n = nums.length;
-        for (int i = 0; i < n; ++i) {
+        int ans = 0;
+        for (int i = 0; i < nums.length; ++i) {
             s.clear();
-            for (int j = i; j < n; ++j) {
+            for (int j = i; j < nums.length; ++j) {
                 s.add(nums[j]);
                 if (s.size() == cnt) {
                     ++ans;
