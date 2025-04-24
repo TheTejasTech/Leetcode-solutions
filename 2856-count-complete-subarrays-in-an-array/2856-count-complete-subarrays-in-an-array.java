@@ -1,20 +1,25 @@
 class Solution {
     public int countCompleteSubarrays(int[] nums) {
-        Set<Integer> s = new HashSet<>();
-        for (int x : nums) {
-            s.add(x);
-        }
-        int cnt = s.size();
-        int ans = 0;
-        for (int i = 0; i < nums.length; ++i) {
-            s.clear();
-            for (int j = i; j < nums.length; ++j) {
-                s.add(nums[j]);
-                if (s.size() == cnt) {
-                    ++ans;
-                }
+        boolean[] exists = new boolean[2001];
+        int distinct = 0;
+        for( int n : nums ){
+            if( !exists[n] ){
+                exists[n] = true;
+                distinct++;
             }
         }
-        return ans;
+        int[] freq = new int[2001];
+        int count = 0, n = nums.length;
+        int sub = 0;
+        for( int start = 0, end = 0; end < n; end++ ){
+            if( freq[ nums[ end ] ]++ == 0 )
+                count++;
+            while( count == distinct ){
+                sub += n - end;
+                if( freq[ nums[ start ++ ] ]-- == 1 )
+                    count--;
+            }
+        }
+        return sub;
     }
 }
