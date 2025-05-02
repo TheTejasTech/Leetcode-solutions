@@ -1,36 +1,43 @@
 class Solution {
 public:
     string pushDominoes(string dominoes) {
-        int n = dominoes.size();
-        queue<int> q;
-        vector<int> time(n, -1);
-        vector<string> force(n);
-        for (int i = 0; i < n; i++) {
-            if (dominoes[i] == '.') continue;
-            q.emplace(i);
-            time[i] = 0;
-            force[i].push_back(dominoes[i]);
-        }
+        std::size_t num_of_dominoes = dominoes.size();
+        int last_right = -1;
+        int last_left = 0;
 
-        string ans(n, '.');
-        while (!q.empty()) {
-            int i = q.front();
-            q.pop();
-            if (force[i].size() == 1) {
-                char f = force[i][0];
-                ans[i] = f;
-                int j = (f == 'L') ? (i - 1) : (i + 1);
-                if (j >= 0 && j < n) {
-                    int t = time[i];
-                    if (time[j] == -1) {
-                        q.emplace(j);
-                        time[j] = t + 1;
-                        force[j].push_back(f);
-                    } else if (time[j] == t + 1)
-                        force[j].push_back(f);
+        for (std::size_t i = 0; i < num_of_dominoes; ++i) {
+            char c = dominoes[i];
+
+            if (c == 'R') {
+                if (last_right != -1) {
+                    for (std::size_t r = last_right + 1; r < i; ++r) {
+                        dominoes[r] = 'R';
+                    }
                 }
+                last_right = i;
+            } else if (c == 'L') {
+                if (last_right != -1) {
+                    for (std::size_t left_p = last_right + 1, right_p = i - 1;
+                         left_p < right_p; left_p++, right_p--) {
+                        dominoes[left_p] = 'R';
+                        dominoes[right_p] = 'L';
+                    }
+                    last_right = -1;
+                } else {
+                    for (std::size_t l = last_left; l < i; ++l) {
+                        dominoes[l] = 'L';
+                    }
+                }
+                last_left = i;
             }
         }
-        return ans;
+
+        if (last_right != -1) {
+            for (int i = last_right + 1; i < num_of_dominoes; ++i) {
+                dominoes[i] = 'R';
+            }
+        }
+
+        return dominoes;
     }
 };
