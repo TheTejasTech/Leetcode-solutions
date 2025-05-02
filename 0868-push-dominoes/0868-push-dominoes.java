@@ -1,41 +1,45 @@
 class Solution {
     public String pushDominoes(String dominoes) {
         int n = dominoes.length();
-        Deque<Integer> q = new ArrayDeque<>();
-        int[] time = new int[n];
-        Arrays.fill(time, -1);
-        List<Character>[] force = new List[n];
-        for (int i = 0; i < n; ++i) {
-            force[i] = new ArrayList<>();
-        }
-        for (int i = 0; i < n; ++i) {
-            char f = dominoes.charAt(i);
-            if (f != '.') {
-                q.offer(i);
-                time[i] = 0;
-                force[i].add(f);
+        char ch[] = dominoes.toCharArray();
+        int i = 0;
+        while( i < n) {
+            if(ch[i] != '.') {
+                i++;
+                continue;
             }
-        }
-        char[] ans = new char[n];
-        Arrays.fill(ans, '.');
-        while (!q.isEmpty()) {
-            int i = q.poll();
-            if (force[i].size() == 1) {
-                ans[i] = force[i].get(0);
-                char f = ans[i];
-                int j = f == 'L' ? i - 1 : i + 1;
-                if (j >= 0 && j < n) {
-                    int t = time[i];
-                    if (time[j] == -1) {
-                        q.offer(j);
-                        time[j] = t + 1;
-                        force[j].add(f);
-                    } else if (time[j] == t + 1) {
-                        force[j].add(f);
+            int j = i; 
+            while( j < n && ch[j] == '.')
+                j++;
+            if(i-1 >= 0 && j < n) {
+                if(ch[i-1] == ch[j]) {
+                    int k = i;
+                    while(k < j)
+                        ch[k++] = ch[i-1];
+                } else {
+                    if(ch[i-1] == 'R') {
+                        int u = i, v = j-1;
+                        while(u < v) {
+                            ch[u++] = 'R';
+                            ch[v--] = 'L';
+                        }
                     }
                 }
+            } else if(i-1 >= 0) {
+                if(ch[i-1] == 'R') {
+                    int k = i;
+                    while(k < j)
+                        ch[k++] = 'R';
+                }
+            } else if(j < n) {
+                if(ch[j] == 'L') {
+                    int k = i;
+                    while(k < j)
+                        ch[k++] = 'L';
+                }
             }
+            i = j;
         }
-        return new String(ans);
+        return String.valueOf(ch);
     }
 }
