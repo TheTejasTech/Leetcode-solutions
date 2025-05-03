@@ -1,19 +1,20 @@
 class Solution {
 public:
     int minDominoRotations(vector<int>& tops, vector<int>& bottoms) {
-        int n = tops.size();
-        auto f = [&](int x) {
-            int cnt1 = 0, cnt2 = 0;
-            for (int i = 0; i < n; ++i) {
-                if (tops[i] != x && bottoms[i] != x) {
-                    return n + 1;
-                }
-                cnt1 += tops[i] == x;
-                cnt2 += bottoms[i] == x;
+        int mswaps=INT_MAX;
+        for(int val=1;val<=6;val++){
+            int tSwap=0, bSwap=0;
+
+            for(int i=0;i<tops.size();i++){
+                if(tops[i]!=val && bottoms[i]!=val){tSwap=INT_MAX; bSwap=INT_MAX; break;}
+
+                if(tops[i]!=val){tSwap++;}
+                if(bottoms[i]!=val){bSwap++;}
             }
-            return n - max(cnt1, cnt2);
-        };
-        int ans = min(f(tops[0]), f(bottoms[0]));
-        return ans > n ? -1 : ans;
+
+            mswaps = min(mswaps, min(tSwap,bSwap));
+        }
+
+        return mswaps==INT_MAX?-1:mswaps;
     }
 };
