@@ -1,10 +1,14 @@
 class Solution {
     public int[] buildArray(int[] nums) {
-        int n=nums.length;
-        int[] ans=new  int[n];
-        for(int i=0;i<nums.length;i++){
-            ans[i]=nums[nums[i]];
+        apermutation(nums,0);
+        return nums;
+    }
+    void apermutation(int[] nums, int start){
+        if(start<nums.length){
+            int temp = nums[start];
+            int result = nums[temp];
+            apermutation(nums,start+1);
+            nums[start]=result;
         }
-        return ans;
     }
 }
