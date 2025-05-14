@@ -1,72 +1,93 @@
 class Solution {
-    private final int mod = (int) 1e9 + 7;
-
+    public static final int MOD = (int)1e9 + 7;
     public int lengthAfterTransformations(String s, int t, List<Integer> nums) {
-        final int m = 26;
+         
+        int[] cnt = getLetterCounts(s);
+        int[][] transformMatrix = createTransformMatrix(nums);
+         
+        int[] transformedCnt = matrixExp(transformMatrix, cnt, t);
+        long res = 0;
+        for(int freq : transformedCnt) res += freq;  
+        return (int)(res % MOD);
 
-        int[] cnt = new int[m];
-        for (char c : s.toCharArray()) {
-            cnt[c - 'a']++;
-        }
-
-        int[][] matrix = new int[m][m];
-        for (int i = 0; i < m; i++) {
-            int num = nums.get(i);
-            for (int j = 1; j <= num; j++) {
-                matrix[i][(i + j) % m] = 1;
-            }
-        }
-
-        int[][] factor = matpow(matrix, t, m);
-        int[] result = vectorMatrixMultiply(cnt, factor);
-        int ans = 0;
-        for (int val : result) {
-            ans = (ans + val) % mod;
-        }
-        return ans;
     }
 
-    private int[][] matmul(int[][] a, int[][] b) {
-        int n = a.length;
-        int p = b.length;
-        int q = b[0].length;
-        int[][] res = new int[n][q];
-        for (int i = 0; i < n; i++) {
-            for (int k = 0; k < p; k++) {
-                if (a[i][k] == 0) continue;
-                for (int j = 0; j < q; j++) {
-                    res[i][j] = (int) ((res[i][j] + 1L * a[i][k] * b[k][j]) % mod);
+    private int[] getLetterCounts(String s) {
+        int[] cnt = new int[26];
+        int n = s.length();
+        for(int i = 0; i < n; i++) cnt[s.charAt(i)-'a']++;
+        return cnt;
+    }
+    private int[][] createTransformMatrix(List<Integer> nums) {
+        int[][] A = new int[26][26];
+        for(int i = 0; i < 26; i++) {
+            int lim = i + nums.get(i);
+            for(int j = i+1; j <= lim; j++) {
+                A[j % 26][i] = 1;
+            }
+        }
+        return A;
+    }
+    private int[] matrixVectorMult(int[][] A, int[] x) {
+        int[] y = new int[26];
+        for(int i = 0; i < 26; i++) {
+            for(int j = 0; j < 26; j++) {
+                y[i] = (int)((y[i] + 1L*A[i][j]*x[j]) % MOD);
+            }
+        }
+        return y;
+    }
+
+private int[][] matrixSq(int[][] A) {
+    int[][] C   = new int[26][26];
+    long[] acc  = new long[26];
+
+    for (int i = 0; i < 26; i++) { 
+        Arrays.fill(acc, 0L);
+ 
+        for (int k = 0; k < 26; k++) {
+            int aik = A[i][k];
+            if (aik == 0) continue;         
+
+            int[] Ak = A[k];
+            for (int j = 0; j < 26; j++) {
+                acc[j] += (long)aik * Ak[j];
+            } 
+            if ((k & 3) == 3) {
+                for (int j = 0; j < 26; j++) {
+                    acc[j] %= MOD;
                 }
             }
         }
-        return res;
+ 
+        for (int j = 0; j < 26; j++) {
+            C[i][j] = (int)(acc[j] % MOD);
+        }
     }
 
-    private int[][] matpow(int[][] mat, int power, int m) {
-        int[][] res = new int[m][m];
-        for (int i = 0; i < m; i++) {
-            res[i][i] = 1;
+    return C;
+}
+
+
+    private int[] matrixExp(int[][] matrix, int[] vector, int exp) {
+        int[][] sq = copy(matrix);
+        while(exp > 0) {
+            if((exp & 1) == 1) vector = matrixVectorMult(sq, vector);
+            sq = matrixSq(sq);
+            exp >>= 1;
         }
-        while (power > 0) {
-            if ((power & 1) != 0) {
-                res = matmul(res, mat);
-            }
-            mat = matmul(mat, mat);
-            power >>= 1;
-        }
-        return res;
+        return vector;
     }
 
-    private int[] vectorMatrixMultiply(int[] vector, int[][] matrix) {
-        int n = matrix.length;
-        int[] result = new int[n];
-        for (int i = 0; i < n; i++) {
-            long sum = 0;
-            for (int j = 0; j < n; j++) {
-                sum = (sum + 1L * vector[j] * matrix[j][i]) % mod;
-            }
-            result[i] = (int) sum;
-        }
-        return result;
+    private int[][] copy(int[][] matrix) {
+        int[][] c = new int[26][26];
+        for(int i = 0; i < 26; i++) c[i] = matrix[i].clone();
+        return c;
+    }
+
+    private int[][] identity() {
+        int[][] iden = new int[26][26];
+        for(int i = 0; i < 26; i++) iden[i][i] = 1;
+        return iden;
     }
 }
