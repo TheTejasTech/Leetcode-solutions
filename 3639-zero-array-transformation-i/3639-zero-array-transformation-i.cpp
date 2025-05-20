@@ -3,7 +3,6 @@ public:
     bool isZeroArray(vector<int>& nums, vector<vector<int>>& queries) {
         int n = nums.size();
 
-        //Step-1 Make diff array using query
         vector<int> diff(n, 0);
         for(auto &query : queries) {
             int start = query[0];
@@ -16,7 +15,6 @@ public:
             }
         }
 
-        //Step-2. Find cumulative effect on each index
         vector<int> result(n, 0);
         int cumSum = 0;
         for(int i = 0; i < n; i++) {
@@ -25,7 +23,7 @@ public:
         }
 
         for(int i = 0; i < n; i++) {
-            if(result[i] < nums[i]) { //nums[i] won't become 0 ever
+            if(result[i] < nums[i]) { 
                 return false;
             }
         }
