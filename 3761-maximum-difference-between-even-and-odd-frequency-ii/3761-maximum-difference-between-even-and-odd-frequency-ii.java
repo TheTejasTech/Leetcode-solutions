@@ -1,63 +1,84 @@
+ 
 class Solution {
-    private void precomputePrefixSum(int[] prefixSumA, int[] prefixSumB, 
-                                   String s, int n, int a, int b) {
-        prefixSumA[0] = prefixSumB[0] = 0;
-        for (int i = 0; i < n; ++i) {
-            if (s.charAt(i) - '0' == a)    prefixSumA[i+1] = 1 + prefixSumA[i];
-            else                           prefixSumA[i+1] = prefixSumA[i];
+	private static final int BAD_DIFF = Integer.MAX_VALUE / 2;
 
-            if (s.charAt(i) - '0' == b)    prefixSumB[i+1] = 1 + prefixSumB[i];
-            else                           prefixSumB[i+1] = prefixSumB[i];
-        }
-    }
-
-    private int calculateDifference(String s, int k, int a, int b) {
-        int n = s.length();
-        int[] prefixSumA = new int[n+1];
-        int[] prefixSumB = new int[n+1];
-        precomputePrefixSum(prefixSumA, prefixSumB, s, n, a, b);
-
-        int[] minVal = new int[4];   
-        int[] minIdx = new int[4];  
-        Arrays.fill(minVal, Integer.MAX_VALUE);
-        Arrays.fill(minIdx, -1);
-        minVal[0] = minIdx[0] = 0;   
-        int maxDiff = Integer.MIN_VALUE;
-        for (int end = k; end <= n; ++end) {
-            int parityA = prefixSumA[end] & 1;
-            int parityB = prefixSumB[end] & 1;
-            int parity = ((parityA ^ 1) << 1) + parityB;
-            
-            if (minVal[parity] != Integer.MAX_VALUE) { 
-                if (prefixSumB[minIdx[parity]] != prefixSumB[end]) {
-                    maxDiff = Math.max(maxDiff, (prefixSumA[end] - prefixSumB[end]) - minVal[parity]);
-                }
-            }
-             
-            int start = end - k + 1;
-            parityA = prefixSumA[start] & 1;
-            parityB = prefixSumB[start] & 1;
-            parity = (parityA << 1) + parityB;
-            int startDiff = prefixSumA[start] - prefixSumB[start];
-            
-            if (startDiff < minVal[parity]) {
-                minVal[parity] = startDiff;
-                minIdx[parity] = start;
-            }
-        }
-        return maxDiff;
-    }
-
-    public int maxDifference(String s, int k) {
-        int n = s.length();
-        int maxDiff = Integer.MIN_VALUE;
-        for (int a = 0; a <= 4; ++a) {
-            for (int b = 0; b <= 4; ++b) {
-                if (a == b) continue;
-                int diff = calculateDifference(s, k, a, b);
-                maxDiff = Math.max(maxDiff, diff);
-            }
-        }
-        return maxDiff;
-    }
+	public static int maxDifference(String s, int k) {
+		char[] chars = s.toCharArray();
+		int n = chars.length;
+		int[] mpdAB = new int[4]; 
+		int[] mpdBA = new int[4];  
+		boolean[] isAbsent = new boolean[5];
+		int result = Integer.MIN_VALUE;
+		aCharLoop:
+		for (char a = '1'; a <= '4'; a++)
+			bCharLoop:
+			for (char b = '0'; b < a; b++) {
+				if (isAbsent[b - '0'])
+					continue;
+				int right = 0;
+				int arf = 0;
+				int brf = 0; 
+				while (right < k || arf + brf < 3 || arf == 0 || brf == 0) {
+					if (right == n) {
+						if (brf == 0)
+							isAbsent[b - '0'] = true;
+						if (arf == 0) {
+							isAbsent[a - '0'] = true;
+							continue aCharLoop;
+						} else
+							continue bCharLoop;
+					}
+					char c = chars[right++];
+					if (c == a)
+						arf++;
+					else if (c == b)
+						brf++;
+				}
+				int left = 0;
+				int alf = 0;
+				int blf = 0;
+				Arrays.fill(mpdAB, BAD_DIFF);
+				Arrays.fill(mpdBA, BAD_DIFF);
+				mpdAB[0] = mpdBA[0] = 0;
+				while (true) {
+					int parityState, freqDiff; 
+					while (left < right - k) {
+						char c = chars[left++];
+						if (c == a) {
+							if (arf == alf + 1) {  
+								left--;
+								break;
+							}
+							alf++;
+						} else if (c == b) {
+							if (brf == blf + 1) {  
+								left--;
+								break;
+							}
+							blf++;
+						} else
+							continue;
+						parityState = ((alf & 1) << 1) + (blf & 1);
+						freqDiff = alf - blf;
+						mpdAB[parityState] = Math.min(mpdAB[parityState], freqDiff);
+						mpdBA[parityState] = Math.min(mpdBA[parityState], -freqDiff);
+					} 
+					parityState = ((arf & 1) << 1) + (brf & 1);
+					freqDiff = arf - brf;
+					result = Math.max(result, freqDiff - mpdAB[parityState ^ 2]); 
+					result = Math.max(result, -freqDiff - mpdBA[parityState ^ 1]);  
+					if (right == n)
+						break; 
+					char c = chars[right++];
+					if (c == a)
+						arf++;
+					else if (c == b)
+						brf++;
+					else
+						while (right < n && (c = chars[right]) != a && c != b)
+							right++;
+				}
+			}
+		return result;
+	}
 }
