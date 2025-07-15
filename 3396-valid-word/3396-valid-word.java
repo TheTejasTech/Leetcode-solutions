@@ -1,16 +1,29 @@
 class Solution {
+
     public boolean isValid(String word) {
-        return word.length() >= 3 && word.chars().allMatch(Character::isLetterOrDigit) &&
-        word.chars().anyMatch(c -> isVowel((char) c)) &&
-        word.chars().anyMatch(c -> isConsonant((char) c));
-  }
-
-  private boolean isVowel(char c) {
-    return "aeiouAEIOU".indexOf(c) != -1;
-  }
-
-  private boolean isConsonant(char c) {
-    return Character.isLetter(c) && !isVowel(c);
-  
+        if (word.length() < 3) {
+            return false;
+        }
+        boolean hasVowel = false;
+        boolean hasConsonant = false;
+        for (char c : word.toCharArray()) {
+            if (Character.isLetter(c)) {
+                char ch = Character.toLowerCase(c);
+                if (
+                    ch == 'a' ||
+                    ch == 'e' ||
+                    ch == 'i' ||
+                    ch == 'o' ||
+                    ch == 'u'
+                ) {
+                    hasVowel = true;
+                } else {
+                    hasConsonant = true;
+                }
+            } else if (!Character.isDigit(c)) {
+                return false;
+            }
+        }
+        return hasVowel && hasConsonant;
     }
 }
