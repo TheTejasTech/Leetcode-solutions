@@ -1,26 +1,17 @@
 class Solution {
-
-    public static int maximumLength(int[] nums, int k) {
-        int n = nums.length;
-        
-        int[][] dp = new int[k][n];
-        for (int i = 0; i < k; i++) {
-            for (int j = 0; j < n; j++) {
-                dp[i][j] = 1;
-            }
+    public int maximumLength(int[] nums, int k) {
+        int n = nums.length, ans = 1;
+        int[][] f = new int[n][k];
+        for(int[] x : f) {
+            Arrays.fill(x, 1);
         }
-
-        int maxSub = 1;
-
-        //mod = 1
         for(int i = 1; i < n; i++) {
             for(int j = 0; j < i; j++) {
-                int mod = (nums[j] + nums[i]) % k; 
-                dp[mod][i] = Math.max(dp[mod][i], 1 + dp[mod][j]);
-                maxSub = Math.max(maxSub, dp[mod][i]);
+                int mod = (nums[i] + nums[j]) % k;
+                f[i][mod] = f[j][mod] + 1;
+                ans = Math.max(ans, f[i][mod]);
             }
         }
-
-        return maxSub;
+        return ans;
     }
 }
