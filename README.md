@@ -18,6 +18,7 @@
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/tea7989/Leetcode-solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/tea7989/Leetcode-solutions/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1656-count-good-triplets](https://github.com/tea7989/Leetcode-solutions/tree/master/1656-count-good-triplets) |
+| [1813-maximum-erasure-value](https://github.com/tea7989/Leetcode-solutions/tree/master/1813-maximum-erasure-value) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/tea7989/Leetcode-solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2048-build-array-from-permutation](https://github.com/tea7989/Leetcode-solutions/tree/master/2048-build-array-from-permutation) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/tea7989/Leetcode-solutions/tree/master/2079-delete-duplicate-folders-in-system) |
@@ -122,6 +123,7 @@
 | [1227-number-of-equivalent-domino-pairs](https://github.com/tea7989/Leetcode-solutions/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/tea7989/Leetcode-solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1500-count-largest-group](https://github.com/tea7989/Leetcode-solutions/tree/master/1500-count-largest-group) |
+| [1813-maximum-erasure-value](https://github.com/tea7989/Leetcode-solutions/tree/master/1813-maximum-erasure-value) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/tea7989/Leetcode-solutions/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/tea7989/Leetcode-solutions/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2215-finding-3-digit-even-numbers](https://github.com/tea7989/Leetcode-solutions/tree/master/2215-finding-3-digit-even-numbers) |
@@ -182,6 +184,7 @@
 |  |
 | ------- |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/tea7989/Leetcode-solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [1813-maximum-erasure-value](https://github.com/tea7989/Leetcode-solutions/tree/master/1813-maximum-erasure-value) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/tea7989/Leetcode-solutions/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/tea7989/Leetcode-solutions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2478-longest-nice-subarray](https://github.com/tea7989/Leetcode-solutions/tree/master/2478-longest-nice-subarray) |
