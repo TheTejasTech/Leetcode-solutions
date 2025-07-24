@@ -1,53 +1,62 @@
 class Solution {
-    private int[] nums;
-    private List<Integer>[] g;
-    private int ans = Integer.MAX_VALUE;
-    private int s;
-    private int s1;
+    private int MAXN = 1001; 
+    private int[] dfn = new int[MAXN]; 
+    private int[] xor = new int[MAXN]; 
+    private int[] size = new int[MAXN];
+    private int dfnCnt;
 
     public int minimumScore(int[] nums, int[][] edges) {
         int n = nums.length;
-        this.nums = nums;
-        g = new List[n];
-        Arrays.setAll(g, k -> new ArrayList<>());
-        for (int[] e : edges) {
-            int a = e[0], b = e[1];
-            g[a].add(b);
-            g[b].add(a);
+        List<List<Integer>> graph = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            graph.add(new ArrayList<>());
         }
-        for (int x : nums) {
-            s ^= x;
+        for (int[] edge : edges) {
+            graph.get(edge[0]).add(edge[1]);
+            graph.get(edge[1]).add(edge[0]);
         }
-        for (int i = 0; i < n; ++i) {
-            for (int j : g[i]) {
-                s1 = dfs(i, j);
-                dfs2(i, j);
+        Arrays.fill(dfn, 0, n, 0);
+        dfnCnt = 0;
+        f(nums, graph, 0);
+        int m = edges.length;
+        int ans = Integer.MAX_VALUE;
+        for (int i = 0, a, b, pre, pos, sum1, sum2, sum3; i < m; i++) {
+            a = Math.max(dfn[edges[i][0]], dfn[edges[i][1]]);
+            for (int j = i + 1; j < m; j++) {
+                b = Math.max(dfn[edges[j][0]], dfn[edges[j][1]]);
+                if (a < b) {
+                    pre = a;
+                    pos = b;
+                } else {
+                    pre = b;
+                    pos = a;
+                }
+                sum1 = xor[pos]; 
+                if (pos < pre + size[pre]) {
+                    sum2 = xor[pre] ^ xor[pos];
+                    sum3 = xor[1] ^ xor[pre];
+                } else {
+                    sum2 = xor[pre];
+                    sum3 = xor[1] ^ sum1 ^ sum2;
+                }
+                ans = Math.min(ans, Math.max(Math.max(sum1, sum2), sum3) - Math.min(Math.min(sum1, sum2), sum3));
             }
         }
         return ans;
     }
-
-    private int dfs(int i, int fa) {
-        int res = nums[i];
-        for (int j : g[i]) {
-            if (j != fa) {
-                res ^= dfs(j, i);
+ 
+    private void f(int[] nums, List<List<Integer>> graph, int u) {
+         
+        int i = ++dfnCnt;
+        dfn[u] = i;
+        xor[i] = nums[u];
+        size[i] = 1;
+        for (int v : graph.get(u)) {
+            if (dfn[v] == 0) {
+                f(nums, graph, v);
+                xor[i] ^= xor[dfn[v]];
+                size[i] += size[dfn[v]];
             }
         }
-        return res;
-    }
-
-    private int dfs2(int i, int fa) {
-        int res = nums[i];
-        for (int j : g[i]) {
-            if (j != fa) {
-                int s2 = dfs2(j, i);
-                res ^= s2;
-                int mx = Math.max(Math.max(s ^ s1, s2), s1 ^ s2);
-                int mn = Math.min(Math.min(s ^ s1, s2), s1 ^ s2);
-                ans = Math.min(ans, mx - mn);
-            }
-        }
-        return res;
     }
 }
