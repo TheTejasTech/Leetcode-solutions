@@ -23,6 +23,7 @@
 | [1993-sum-of-all-subset-xor-totals](https://github.com/tea7989/Leetcode-solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2048-build-array-from-permutation](https://github.com/tea7989/Leetcode-solutions/tree/master/2048-build-array-from-permutation) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/tea7989/Leetcode-solutions/tree/master/2079-delete-duplicate-folders-in-system) |
+| [2144-maximum-difference-between-increasing-elements](https://github.com/tea7989/Leetcode-solutions/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/tea7989/Leetcode-solutions/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/tea7989/Leetcode-solutions/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2215-finding-3-digit-even-numbers](https://github.com/tea7989/Leetcode-solutions/tree/master/2215-finding-3-digit-even-numbers) |
