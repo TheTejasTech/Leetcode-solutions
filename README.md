@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/tea7989/Leetcode-solutions/tree/master/0035-search-insert-position) |
 | [0073-set-matrix-zeroes](https://github.com/tea7989/Leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/tea7989/Leetcode-solutions/tree/master/0075-sort-colors) |
 | [0118-pascals-triangle](https://github.com/tea7989/Leetcode-solutions/tree/master/0118-pascals-triangle) |
@@ -212,6 +213,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0035-search-insert-position](https://github.com/tea7989/Leetcode-solutions/tree/master/0035-search-insert-position) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/tea7989/Leetcode-solutions/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/tea7989/Leetcode-solutions/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2280-count-good-triplets-in-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/2280-count-good-triplets-in-an-array) |
