@@ -102,6 +102,7 @@
 ## Math
 |  |
 | ------- |
+| [0326-power-of-three](https://github.com/tea7989/Leetcode-solutions/tree/master/0326-power-of-three) |
 | [0368-largest-divisible-subset](https://github.com/tea7989/Leetcode-solutions/tree/master/0368-largest-divisible-subset) |
 | [0797-rabbits-in-forest](https://github.com/tea7989/Leetcode-solutions/tree/master/0797-rabbits-in-forest) |
 | [1406-subtract-the-product-and-sum-of-digits-of-an-integer](https://github.com/tea7989/Leetcode-solutions/tree/master/1406-subtract-the-product-and-sum-of-digits-of-an-integer) |
@@ -440,6 +441,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0326-power-of-three](https://github.com/tea7989/Leetcode-solutions/tree/master/0326-power-of-three) |
 | [2050-count-good-numbers](https://github.com/tea7989/Leetcode-solutions/tree/master/2050-count-good-numbers) |
 ## Binary Indexed Tree
 |  |
