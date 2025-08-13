@@ -81,6 +81,7 @@
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/tea7989/Leetcode-solutions/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/tea7989/Leetcode-solutions/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/tea7989/Leetcode-solutions/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
+| [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/tea7989/Leetcode-solutions/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/tea7989/Leetcode-solutions/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3790-fruits-into-baskets-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/3791-fruits-into-baskets-iii) |
