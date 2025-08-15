@@ -103,6 +103,7 @@
 ## Math
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/tea7989/Leetcode-solutions/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/tea7989/Leetcode-solutions/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/tea7989/Leetcode-solutions/tree/master/0342-power-of-four) |
 | [0368-largest-divisible-subset](https://github.com/tea7989/Leetcode-solutions/tree/master/0368-largest-divisible-subset) |
@@ -298,6 +299,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/tea7989/Leetcode-solutions/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/tea7989/Leetcode-solutions/tree/master/0342-power-of-four) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/tea7989/Leetcode-solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2308-divide-array-into-equal-pairs](https://github.com/tea7989/Leetcode-solutions/tree/master/2308-divide-array-into-equal-pairs) |
@@ -445,6 +447,7 @@
 ## Recursion
 |  |
 | ------- |
+| [0231-power-of-two](https://github.com/tea7989/Leetcode-solutions/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/tea7989/Leetcode-solutions/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/tea7989/Leetcode-solutions/tree/master/0342-power-of-four) |
 | [2050-count-good-numbers](https://github.com/tea7989/Leetcode-solutions/tree/master/2050-count-good-numbers) |
