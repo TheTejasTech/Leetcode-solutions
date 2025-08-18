@@ -13,5 +13,19 @@ public:
         }
 
         return (char)(sum_t - sum_s);
+        /*
+        unrdered_map <int, char> mp;
+        for( char &ch :  s) {
+            mp++;
+        }
+        for( char &ch :  t) {
+            mp[ch]--;
+
+            if( mp[ch] < 0){
+                return ch;
+            }
+        }
+        return '';
+        */
     }
 };
