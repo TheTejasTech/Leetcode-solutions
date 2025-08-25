@@ -102,12 +102,14 @@
 ## Simulation
 |  |
 | ------- |
+| [0043-multiply-strings](https://github.com/tea7989/Leetcode-solutions/tree/master/0043-multiply-strings) |
 | [2048-build-array-from-permutation](https://github.com/tea7989/Leetcode-solutions/tree/master/2048-build-array-from-permutation) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/tea7989/Leetcode-solutions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [3790-fruits-into-baskets-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3790-fruits-into-baskets-ii) |
 ## Math
 |  |
 | ------- |
+| [0043-multiply-strings](https://github.com/tea7989/Leetcode-solutions/tree/master/0043-multiply-strings) |
 | [0231-power-of-two](https://github.com/tea7989/Leetcode-solutions/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/tea7989/Leetcode-solutions/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/tea7989/Leetcode-solutions/tree/master/0342-power-of-four) |
@@ -189,6 +191,7 @@
 |  |
 | ------- |
 | [0038-count-and-say](https://github.com/tea7989/Leetcode-solutions/tree/master/0038-count-and-say) |
+| [0043-multiply-strings](https://github.com/tea7989/Leetcode-solutions/tree/master/0043-multiply-strings) |
 | [0389-find-the-difference](https://github.com/tea7989/Leetcode-solutions/tree/master/0389-find-the-difference) |
 | [0768-partition-labels](https://github.com/tea7989/Leetcode-solutions/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/tea7989/Leetcode-solutions/tree/master/0868-push-dominoes) |
