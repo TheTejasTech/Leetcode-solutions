@@ -134,6 +134,7 @@
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/tea7989/Leetcode-solutions/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3227-find-missing-and-repeated-values](https://github.com/tea7989/Leetcode-solutions/tree/master/3227-find-missing-and-repeated-values) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/tea7989/Leetcode-solutions/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3279-alice-and-bob-playing-flower-game](https://github.com/tea7989/Leetcode-solutions/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3321-type-of-triangle](https://github.com/tea7989/Leetcode-solutions/tree/master/3321-type-of-triangle) |
 | [3548-find-the-count-of-good-integers](https://github.com/tea7989/Leetcode-solutions/tree/master/3548-find-the-count-of-good-integers) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3629-total-characters-in-string-after-transformations-i) |
