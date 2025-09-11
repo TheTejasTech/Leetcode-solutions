@@ -527,4 +527,8 @@
 |  |
 | ------- |
 | [2079-delete-duplicate-folders-in-system](https://github.com/tea7989/Leetcode-solutions/tree/master/2079-delete-duplicate-folders-in-system) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/tea7989/Leetcode-solutions/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
