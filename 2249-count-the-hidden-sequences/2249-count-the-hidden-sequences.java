@@ -1,6 +1,6 @@
 class Solution {
     public int numberOfArrays(int[] differences, int lower, int upper) {
-         int curr = 0; //a[0] first element of hidden sequence
+         int curr = 0; 
         int minVal = 0;
         int maxVal = 0;
 
