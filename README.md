@@ -18,6 +18,7 @@
 | [0498-diagonal-traverse](https://github.com/tea7989/Leetcode-solutions/tree/master/0498-diagonal-traverse) |
 | [0611-valid-triangle-number](https://github.com/tea7989/Leetcode-solutions/tree/master/0611-valid-triangle-number) |
 | [0797-rabbits-in-forest](https://github.com/tea7989/Leetcode-solutions/tree/master/0797-rabbits-in-forest) |
+| [0830-largest-triangle-area](https://github.com/tea7989/Leetcode-solutions/tree/master/0830-largest-triangle-area) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/tea7989/Leetcode-solutions/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/tea7989/Leetcode-solutions/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1293-three-consecutive-odds](https://github.com/tea7989/Leetcode-solutions/tree/master/1293-three-consecutive-odds) |
@@ -126,6 +127,7 @@
 | [0342-power-of-four](https://github.com/tea7989/Leetcode-solutions/tree/master/0342-power-of-four) |
 | [0368-largest-divisible-subset](https://github.com/tea7989/Leetcode-solutions/tree/master/0368-largest-divisible-subset) |
 | [0797-rabbits-in-forest](https://github.com/tea7989/Leetcode-solutions/tree/master/0797-rabbits-in-forest) |
+| [0830-largest-triangle-area](https://github.com/tea7989/Leetcode-solutions/tree/master/0830-largest-triangle-area) |
 | [1406-subtract-the-product-and-sum-of-digits-of-an-integer](https://github.com/tea7989/Leetcode-solutions/tree/master/1406-subtract-the-product-and-sum-of-digits-of-an-integer) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/tea7989/Leetcode-solutions/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/tea7989/Leetcode-solutions/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -567,4 +569,8 @@
 | ------- |
 | [2429-design-a-food-rating-system](https://github.com/tea7989/Leetcode-solutions/tree/master/2429-design-a-food-rating-system) |
 | [3678-design-task-manager](https://github.com/tea7989/Leetcode-solutions/tree/master/3678-design-task-manager) |
+## Geometry
+|  |
+| ------- |
+| [0830-largest-triangle-area](https://github.com/tea7989/Leetcode-solutions/tree/master/0830-largest-triangle-area) |
 <!---LeetCode Topics End-->
