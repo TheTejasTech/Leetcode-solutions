@@ -29,15 +29,15 @@ class Solution {
         return 0;
     }
 
-    public int formTri(int a, int b, int c, int[] nums) {
-        int formTriangle = 0;
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] + nums[i + 1] > nums[i + 2] || nums[i] + nums[i + 2] > nums[i + 1]
-                    || nums[i + 1] + nums[i + 2] > nums[i]) {
+    // public int formTri(int a, int b, int c, int[] nums) {
+    //     int formTriangle = 0;
+    //     for (int i = 0; i < nums.length; i++) {
+    //         if (nums[i] + nums[i + 1] > nums[i + 2] || nums[i] + nums[i + 2] > nums[i + 1]
+    //                 || nums[i + 1] + nums[i + 2] > nums[i]) {
 
-                formTriangle++;
-            }
-        }
-        return formTriangle;
-    }
+    //             formTriangle++;
+    //         }
+    //     }
+    //     return formTriangle;
+    // }
 }
