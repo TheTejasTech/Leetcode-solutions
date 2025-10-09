@@ -103,6 +103,7 @@
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/tea7989/Leetcode-solutions/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3790-fruits-into-baskets-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/3791-fruits-into-baskets-iii) |
+| [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/tea7989/Leetcode-solutions/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Two Pointers
 |  |
 | ------- |
@@ -127,6 +128,7 @@
 | [2408-number-of-people-aware-of-a-secret](https://github.com/tea7989/Leetcode-solutions/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [3336-water-bottles-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3336-water-bottles-ii) |
 | [3790-fruits-into-baskets-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3790-fruits-into-baskets-ii) |
+| [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/tea7989/Leetcode-solutions/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Math
 |  |
 | ------- |
@@ -310,6 +312,7 @@
 | [3643-zero-array-transformation-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3643-zero-array-transformation-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/3647-zero-array-transformation-iii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
+| [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/tea7989/Leetcode-solutions/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Divide and Conquer
 |  |
 | ------- |
