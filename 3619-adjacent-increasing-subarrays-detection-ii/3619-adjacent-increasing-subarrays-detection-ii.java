@@ -19,22 +19,16 @@ class Solution {
         //     k = Math.max(k , Math.min(curr , prev));
         // }
         // return k;
+        int ans = 0, pre = 0, cur = 0;
         int n = nums.size();
-        int cnt = 1;
-        int precnt = 0;
-        int ans = 0;
-
-        for (int i = 1; i < n; ++i) {
-            if (nums.get(i) > nums.get(i - 1)) {
-                ++cnt;
-            } else {
-                precnt = cnt;
-                cnt = 1;
+        for (int i = 0; i < n; ++i) {
+            ++cur;
+            if (i == n - 1 || nums.get(i) >= nums.get(i + 1)) {
+                ans = Math.max(ans, Math.max(cur / 2, Math.min(pre, cur)));
+                pre = cur;
+                cur = 0;
             }
-            ans = Math.max(ans, Math.min(precnt, cnt));
-            ans = Math.max(ans, cnt / 2);
         }
-
         return ans;
     }
 }
