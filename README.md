@@ -62,6 +62,7 @@
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/tea7989/Leetcode-solutions/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/tea7989/Leetcode-solutions/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/tea7989/Leetcode-solutions/tree/master/2626-count-the-number-of-good-subarrays) |
+| [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/tea7989/Leetcode-solutions/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2665-minimum-time-to-repair-cars](https://github.com/tea7989/Leetcode-solutions/tree/master/2665-minimum-time-to-repair-cars) |
 | [2681-put-marbles-in-bags](https://github.com/tea7989/Leetcode-solutions/tree/master/2681-put-marbles-in-bags) |
 | [2690-house-robber-iv](https://github.com/tea7989/Leetcode-solutions/tree/master/2690-house-robber-iv) |
@@ -157,6 +158,7 @@
 | [2415-count-the-number-of-ideal-arrays](https://github.com/tea7989/Leetcode-solutions/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2610-closest-prime-numbers-in-range](https://github.com/tea7989/Leetcode-solutions/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/tea7989/Leetcode-solutions/tree/master/2649-count-total-number-of-colored-cells) |
+| [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/tea7989/Leetcode-solutions/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2998-count-symmetric-integers](https://github.com/tea7989/Leetcode-solutions/tree/master/2998-count-symmetric-integers) |
 | [3001-apply-operations-to-maximize-score](https://github.com/tea7989/Leetcode-solutions/tree/master/3001-apply-operations-to-maximize-score) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/tea7989/Leetcode-solutions/tree/master/3172-divisible-and-non-divisible-sums-difference) |
@@ -192,6 +194,7 @@
 | [2308-divide-array-into-equal-pairs](https://github.com/tea7989/Leetcode-solutions/tree/master/2308-divide-array-into-equal-pairs) |
 | [2429-design-a-food-rating-system](https://github.com/tea7989/Leetcode-solutions/tree/master/2429-design-a-food-rating-system) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/tea7989/Leetcode-solutions/tree/master/2626-count-the-number-of-good-subarrays) |
+| [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/tea7989/Leetcode-solutions/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/tea7989/Leetcode-solutions/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2915-count-of-interesting-subarrays](https://github.com/tea7989/Leetcode-solutions/tree/master/2915-count-of-interesting-subarrays) |
@@ -489,6 +492,7 @@
 | [1834-minimum-number-of-people-to-teach](https://github.com/tea7989/Leetcode-solutions/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/tea7989/Leetcode-solutions/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/tea7989/Leetcode-solutions/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/tea7989/Leetcode-solutions/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2681-put-marbles-in-bags](https://github.com/tea7989/Leetcode-solutions/tree/master/2681-put-marbles-in-bags) |
 | [3001-apply-operations-to-maximize-score](https://github.com/tea7989/Leetcode-solutions/tree/master/3001-apply-operations-to-maximize-score) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
