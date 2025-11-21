@@ -195,6 +195,7 @@
 | [1500-count-largest-group](https://github.com/tea7989/Leetcode-solutions/tree/master/1500-count-largest-group) |
 | [1813-maximum-erasure-value](https://github.com/tea7989/Leetcode-solutions/tree/master/1813-maximum-erasure-value) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/tea7989/Leetcode-solutions/tree/master/1834-minimum-number-of-people-to-teach) |
+| [1930-unique-length-3-palindromic-subsequences](https://github.com/tea7989/Leetcode-solutions/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/tea7989/Leetcode-solutions/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/tea7989/Leetcode-solutions/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2215-finding-3-digit-even-numbers](https://github.com/tea7989/Leetcode-solutions/tree/master/2215-finding-3-digit-even-numbers) |
@@ -258,6 +259,7 @@
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/tea7989/Leetcode-solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/tea7989/Leetcode-solutions/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/tea7989/Leetcode-solutions/tree/master/1818-maximum-score-from-removing-substrings) |
+| [1930-unique-length-3-palindromic-subsequences](https://github.com/tea7989/Leetcode-solutions/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/tea7989/Leetcode-solutions/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/tea7989/Leetcode-solutions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/tea7989/Leetcode-solutions/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -331,6 +333,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [1930-unique-length-3-palindromic-subsequences](https://github.com/tea7989/Leetcode-solutions/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2249-count-the-hidden-sequences](https://github.com/tea7989/Leetcode-solutions/tree/master/2249-count-the-hidden-sequences) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/tea7989/Leetcode-solutions/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2529-range-product-queries-of-powers](https://github.com/tea7989/Leetcode-solutions/tree/master/2529-range-product-queries-of-powers) |
@@ -398,6 +401,7 @@
 | [0231-power-of-two](https://github.com/tea7989/Leetcode-solutions/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/tea7989/Leetcode-solutions/tree/master/0342-power-of-four) |
 | [0389-find-the-difference](https://github.com/tea7989/Leetcode-solutions/tree/master/0389-find-the-difference) |
+| [1930-unique-length-3-palindromic-subsequences](https://github.com/tea7989/Leetcode-solutions/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/tea7989/Leetcode-solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2308-divide-array-into-equal-pairs](https://github.com/tea7989/Leetcode-solutions/tree/master/2308-divide-array-into-equal-pairs) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/tea7989/Leetcode-solutions/tree/master/2400-minimum-score-after-removals-on-a-tree) |
