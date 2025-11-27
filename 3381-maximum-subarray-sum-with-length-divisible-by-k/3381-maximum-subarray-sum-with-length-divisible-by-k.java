@@ -1,15 +1,6 @@
 class Solution {
     public long maxSubarraySum(int[] nums, int k) {
-        // int n = nums.length;
-        // int sum = 0;
-        // int[] prefsum = new int[nums.length];
-        // prefsum[0] = nums[0];
-        // // for(int i = 0; i < nums.length; i++){
-        // //     for(int j = i; j < nums.length - i; j++){
-        // //         //sum = nums[i] + nums[j];
-        // //         sum = Math.max(sum , nums[i] + nums[j]);
-        // //     }
-        // // }
+        
         int n = nums.length;
 
         long[] prefSum = new long[n];
@@ -39,4 +30,13 @@ class Solution {
 
         return result;
     }
-}
+}// int n = nums.length;
+        // int sum = 0;
+        // int[] prefsum = new int[nums.length];
+        // prefsum[0] = nums[0];
+        // for(int i = 0; i < nums.length; i++){
+        //     for(int j = i; j < nums.length - i; j++){
+        //         //sum = nums[i] + nums[j];
+        //         sum = Math.max(sum , nums[i] + nums[j]);
+        //     }
+        // }
