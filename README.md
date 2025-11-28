@@ -463,6 +463,7 @@
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/tea7989/Leetcode-solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/tea7989/Leetcode-solutions/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2793-count-the-number-of-complete-components](https://github.com/tea7989/Leetcode-solutions/tree/master/2793-count-the-number-of-complete-components) |
+| [2872-maximum-number-of-k-divisible-components](https://github.com/tea7989/Leetcode-solutions/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 ## Breadth-First Search
 |  |
@@ -560,6 +561,7 @@
 | ------- |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/tea7989/Leetcode-solutions/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/tea7989/Leetcode-solutions/tree/master/2400-minimum-score-after-removals-on-a-tree) |
+| [2872-maximum-number-of-k-divisible-components](https://github.com/tea7989/Leetcode-solutions/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/tea7989/Leetcode-solutions/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 ## Binary Tree
