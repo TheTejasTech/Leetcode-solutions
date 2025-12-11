@@ -103,6 +103,7 @@
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/tea7989/Leetcode-solutions/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
+| [3531-count-covered-buildings](https://github.com/tea7989/Leetcode-solutions/tree/master/3531-count-covered-buildings) |
 | [3619-adjacent-increasing-subarrays-detection-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3619-adjacent-increasing-subarrays-detection-ii) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/tea7989/Leetcode-solutions/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -225,6 +226,7 @@
 | [3227-find-missing-and-repeated-values](https://github.com/tea7989/Leetcode-solutions/tree/master/3227-find-missing-and-repeated-values) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/tea7989/Leetcode-solutions/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/tea7989/Leetcode-solutions/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3531-count-covered-buildings](https://github.com/tea7989/Leetcode-solutions/tree/master/3531-count-covered-buildings) |
 | [3548-find-the-count-of-good-integers](https://github.com/tea7989/Leetcode-solutions/tree/master/3548-find-the-count-of-good-integers) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/tea7989/Leetcode-solutions/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
@@ -397,6 +399,7 @@
 | [3321-type-of-triangle](https://github.com/tea7989/Leetcode-solutions/tree/master/3321-type-of-triangle) |
 | [3430-count-days-without-meetings](https://github.com/tea7989/Leetcode-solutions/tree/master/3430-count-days-without-meetings) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/tea7989/Leetcode-solutions/tree/master/3437-maximum-total-damage-with-spell-casting) |
+| [3531-count-covered-buildings](https://github.com/tea7989/Leetcode-solutions/tree/master/3531-count-covered-buildings) |
 | [3647-zero-array-transformation-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/tea7989/Leetcode-solutions/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Heap (Priority Queue)
