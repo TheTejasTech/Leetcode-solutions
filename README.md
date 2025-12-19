@@ -386,6 +386,7 @@
 | [0611-valid-triangle-number](https://github.com/tea7989/Leetcode-solutions/tree/master/0611-valid-triangle-number) |
 | [1018-largest-perimeter-triangle](https://github.com/tea7989/Leetcode-solutions/tree/master/1018-largest-perimeter-triangle) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/tea7989/Leetcode-solutions/tree/master/1262-greatest-sum-divisible-by-three) |
+| [2092-find-all-people-with-secret](https://github.com/tea7989/Leetcode-solutions/tree/master/2092-find-all-people-with-secret) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/tea7989/Leetcode-solutions/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/tea7989/Leetcode-solutions/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/tea7989/Leetcode-solutions/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -452,6 +453,7 @@
 ## Union Find
 |  |
 | ------- |
+| [2092-find-all-people-with-secret](https://github.com/tea7989/Leetcode-solutions/tree/master/2092-find-all-people-with-secret) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/tea7989/Leetcode-solutions/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/tea7989/Leetcode-solutions/tree/master/2793-count-the-number-of-complete-components) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/tea7989/Leetcode-solutions/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
@@ -460,6 +462,7 @@
 | ------- |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/tea7989/Leetcode-solutions/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/tea7989/Leetcode-solutions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2092-find-all-people-with-secret](https://github.com/tea7989/Leetcode-solutions/tree/master/2092-find-all-people-with-secret) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/tea7989/Leetcode-solutions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2793-count-the-number-of-complete-components](https://github.com/tea7989/Leetcode-solutions/tree/master/2793-count-the-number-of-complete-components) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/tea7989/Leetcode-solutions/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
@@ -477,6 +480,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/tea7989/Leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/tea7989/Leetcode-solutions/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/tea7989/Leetcode-solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [2092-find-all-people-with-secret](https://github.com/tea7989/Leetcode-solutions/tree/master/2092-find-all-people-with-secret) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/tea7989/Leetcode-solutions/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2793-count-the-number-of-complete-components](https://github.com/tea7989/Leetcode-solutions/tree/master/2793-count-the-number-of-complete-components) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/tea7989/Leetcode-solutions/tree/master/2872-maximum-number-of-k-divisible-components) |
@@ -487,6 +491,7 @@
 | ------- |
 | [0417-pacific-atlantic-water-flow](https://github.com/tea7989/Leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/tea7989/Leetcode-solutions/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
+| [2092-find-all-people-with-secret](https://github.com/tea7989/Leetcode-solutions/tree/master/2092-find-all-people-with-secret) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/tea7989/Leetcode-solutions/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2793-count-the-number-of-complete-components](https://github.com/tea7989/Leetcode-solutions/tree/master/2793-count-the-number-of-complete-components) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
