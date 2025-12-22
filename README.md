@@ -20,6 +20,7 @@
 | [0611-valid-triangle-number](https://github.com/tea7989/Leetcode-solutions/tree/master/0611-valid-triangle-number) |
 | [0797-rabbits-in-forest](https://github.com/tea7989/Leetcode-solutions/tree/master/0797-rabbits-in-forest) |
 | [0830-largest-triangle-area](https://github.com/tea7989/Leetcode-solutions/tree/master/0830-largest-triangle-area) |
+| [0960-delete-columns-to-make-sorted-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1018-largest-perimeter-triangle](https://github.com/tea7989/Leetcode-solutions/tree/master/1018-largest-perimeter-triangle) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/tea7989/Leetcode-solutions/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/tea7989/Leetcode-solutions/tree/master/1111-minimum-score-triangulation-of-polygon) |
@@ -273,6 +274,7 @@
 | [0389-find-the-difference](https://github.com/tea7989/Leetcode-solutions/tree/master/0389-find-the-difference) |
 | [0768-partition-labels](https://github.com/tea7989/Leetcode-solutions/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/tea7989/Leetcode-solutions/tree/master/0868-push-dominoes) |
+| [0960-delete-columns-to-make-sorted-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/tea7989/Leetcode-solutions/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/tea7989/Leetcode-solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/tea7989/Leetcode-solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -504,6 +506,7 @@
 | [0416-partition-equal-subset-sum](https://github.com/tea7989/Leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0806-domino-and-tromino-tiling](https://github.com/tea7989/Leetcode-solutions/tree/master/0806-domino-and-tromino-tiling) |
 | [0868-push-dominoes](https://github.com/tea7989/Leetcode-solutions/tree/master/0868-push-dominoes) |
+| [0960-delete-columns-to-make-sorted-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/tea7989/Leetcode-solutions/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/tea7989/Leetcode-solutions/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/tea7989/Leetcode-solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
