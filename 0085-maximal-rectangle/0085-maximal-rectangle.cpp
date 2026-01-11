@@ -1,72 +1,44 @@
 class Solution {
 public:
-    int MAH(vector<int>& heights, int& n) {
+    int largestRectangleArea(vector<int>& heights) {
         stack<int> st;
-        int i = 0;
+        heights.push_back(0);  // sentinel
         int maxArea = 0;
-        int area = 0;
-        while(i < n) {
-            if(st.empty() || heights[i] >= heights[st.top()]) {
-                st.push(i++);
-            } else {
-                int index = st.top();
+
+        for (int i = 0; i < heights.size(); i++) {
+            while (!st.empty() && heights[i] < heights[st.top()]) {
+                int h = heights[st.top()];
                 st.pop();
-                
-                if(st.empty()) {
-                    area = heights[index] * i;
-                } else {
-                    area = heights[index] * (i - st.top() - 1);
-                }
-                
-                maxArea = max(maxArea, area);
-            }
-        }
-        
-        while(!st.empty()) {
-            int index = st.top();
-            st.pop();
 
-            if(st.empty()) {
-                area = heights[index] * i;
-            } else {
-                area = heights[index] * (i - st.top() - 1);
+                int width = st.empty() ? i : i - st.top() - 1;
+                maxArea = max(maxArea, h * width);
             }
-
-            maxArea = max(maxArea, area);
+            st.push(i);
         }
-        
+
+        heights.pop_back(); // clean up
         return maxArea;
-        
     }
-    
+
     int maximalRectangle(vector<vector<char>>& matrix) {
-        if(matrix.size() == 0)
-            return 0;
-        
+        if (matrix.empty()) return 0;
+
+        int rows = matrix.size();
+        int cols = matrix[0].size();
+        vector<int> heights(cols, 0);
+
         int maxArea = 0;
-        int m       = matrix.size();
-        int n       = matrix[0].size();
-        
-        
-        vector<int> heights(n, 0);
-        for(int col = 0; col < n; col++) {
-            heights[col] = matrix[0][col] == '0' ? 0 : 1;
-        }
-        
-        maxArea = MAH(heights, n);
-        
-        for(int row = 1; row < m; row++) {
-            for(int col = 0; col < n; col++) {
-                if(matrix[row][col] == '0') {
-                    heights[col] = 0;
-                } else {
-                    heights[col] += 1;
-                }
+
+        for (int r = 0; r < rows; r++) {
+            for (int c = 0; c < cols; c++) {
+                if (matrix[r][c] == '1')
+                    heights[c]++;
+                else
+                    heights[c] = 0;
             }
-            
-            maxArea = max(maxArea, MAH(heights, n));
+            maxArea = max(maxArea, largestRectangleArea(heights));
         }
-        
+
         return maxArea;
     }
 };
