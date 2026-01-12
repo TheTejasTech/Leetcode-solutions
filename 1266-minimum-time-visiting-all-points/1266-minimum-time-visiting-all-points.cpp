@@ -4,6 +4,7 @@ public:
         int ans = 0;
 
         for(int i = 0; i < points.size() -1; i++){
+            //O[n] for both complexities
             int x1 = points[i][0];
             int y1 = points[i][1];
             int x2 = points[i+1][0];
