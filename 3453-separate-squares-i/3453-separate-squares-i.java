@@ -1,6 +1,6 @@
 class Solution {
     public double separateSquares(int[][] squares) {
-        double low = Double.MAX_VALUE;
+       double low = Double.MAX_VALUE;
         double high = -Double.MAX_VALUE;
         double total = 0.0;
 
@@ -49,6 +49,6 @@ class Solution {
             }
         }
 
-        return bottomArea >= total / 2.0; //Is bottom area more than above ?
+        return bottomArea >= total / 2.0; //Is bottom area more than above ? 
     }
 }
