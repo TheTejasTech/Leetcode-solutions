@@ -1,93 +1,179 @@
-class SegmentTree {
- public:
-  explicit SegmentTree(const vector<int>& xs)
-      : xs(xs), n(xs.size() - 1), coveredCount(4 * n), coveredWidth(4 * n) {}
-
-  // Adds val to the range [i, j].
-  void add(int i, int j, int val) {
-    add(0, 0, n - 1, i, j, val);
-  }
-
-  // Returns the covered width of xs[0..n - 1].
-  int getCoveredWidth() const {
-    return coveredWidth[0];
-  }
-
- private:
-  const int n;  // the number of segments (|xs| - 1)
-  vector<int> xs;
-  vector<int> coveredCount;
-  vector<int> coveredWidth;
-
-  void add(int treeIndex, int lo, int hi, int i, int j, int val) {
-    if (j <= xs[lo] || xs[hi + 1] <= i)
-      return;
-    if (i <= xs[lo] && xs[hi + 1] <= j) {
-      coveredCount[treeIndex] += val;
-    } else {
-      const int mid = (lo + hi) / 2;
-      add(2 * treeIndex + 1, lo, mid, i, j, val);
-      add(2 * treeIndex + 2, mid + 1, hi, i, j, val);
-    }
-    if (coveredCount[treeIndex] > 0) {
-      coveredWidth[treeIndex] = xs[hi + 1] - xs[lo];
-    } else if (lo == hi) {
-      coveredWidth[treeIndex] = 0;
-    } else {
-      coveredWidth[treeIndex] =
-          coveredWidth[2 * treeIndex + 1] + coveredWidth[2 * treeIndex + 2];
-    }
-  }
-};
+#include <ranges>
 
 class Solution {
- public:
-  double separateSquares(vector<vector<int>>& squares) {
-    vector<tuple<int, int, int, int>> events;  // (y, delta, xl, xr)
-    set<int> xs;
+public:
+    double separateSquares(const vector<vector<int>>& in_squares) {
+        // using SegTree = SegTreeLazy; // 240ms
+        using SegTree = SegTreeSimple; // 200ms
 
-    for (const vector<int>& square : squares) {
-      const int x = square[0];
-      const int y = square[1];
-      const int l = square[2];
-      events.emplace_back(y, 1, x, x + l);
-      events.emplace_back(y + l, -1, x, x + l);
-      xs.insert(x);
-      xs.insert(x + l);
+        // Coordinate compression for x-coordinates
+        vector<int> comp2x;
+        for (const auto& v : in_squares) {
+            comp2x.push_back(v[0]);
+            comp2x.push_back(v[0] + v[2]);
+        }
+        sort(comp2x.begin(), comp2x.end());
+        comp2x.erase(unique(comp2x.begin(), comp2x.end()), comp2x.end());
+
+        auto squares = in_squares
+            | views::transform(
+                [&comp2x](const auto& v) {
+                    return Square{
+                        v[0], v[1], v[2],
+                        static_cast<int>(::distance(
+                            comp2x.begin(), ::lower_bound(comp2x.begin(), comp2x.end(), v[0]))),
+                        static_cast<int>(::distance(
+                            comp2x.begin(), ::lower_bound(comp2x.begin(), comp2x.end(), v[0] + v[2])))};
+                })
+            | ::ranges::to<vector>();
+
+        // Create events for sweeping: each square generates two events (top and bottom)
+        vector<SquareTopBottom> sq_tb;
+        sq_tb.reserve(squares.size() * 2);
+        for (const auto& sq : squares) {
+            sq_tb.emplace_back(&sq, true);
+            sq_tb.emplace_back(&sq, false);
+        }
+        ::sort(sq_tb.begin(), sq_tb.end());
+
+        // Perform sweep line algorithm, creating accumulation stages
+        // Each stage represents the covered x-length at a specific y-range
+        const auto acc_stages = sq_tb
+            | ::views::chunk_by([](const auto& a, const auto& b) { return a.y == b.y; })
+            | ::views::transform([&sq_tb, segt = SegTree(comp2x)](const auto& chunk) mutable {
+                long long cur_y = chunk.back().y;
+                long long nxt_y = &chunk.back() == &(sq_tb.back()) ? cur_y : (&chunk.back() + 1)->y;
+                for (const auto& sq : chunk) // Update with events at this y-coordinate
+                    segt.inc(sq.sq->x_comp_beg, sq.sq->x_comp_end - 1, sq.is_beg ? 1 : -1);
+                // Current stage: y-range and covered x-length
+                return SquareAccumulateStage{cur_y, nxt_y, segt.get_length_x()};
+            })
+            | ::ranges::to<vector>();
+
+        // Calculate total area and find where half of it is reached
+        double remain_sq = 0.5 * accumulate(
+            acc_stages.begin(), acc_stages.end(), 0.0,
+            [](double acc, const auto& stage) { return acc + (stage.nxt_y - stage.cur_y) * stage.len_x; });
+        // Find the exact y-coordinate where half the area is reached
+        for (const auto& stage : acc_stages) {
+            double stage_sq = (stage.nxt_y - stage.cur_y) * stage.len_x;
+            if (stage_sq > remain_sq - kEps)
+                return stage.cur_y + remain_sq / stage.len_x; // Linear interpolation within stage
+            remain_sq -= stage_sq;
+            if (abs(remain_sq) < kEps) return stage.nxt_y; // Exact match
+        }
+        return acc_stages.back().cur_y;
     }
 
-    ranges::sort(events);
+private:
+    static constexpr double kEps = 1e-5;
 
-    const double halfArea = getArea(events, xs) / 2.0;
-    long area = 0;
-    int prevY = 0;
-    SegmentTree tree({xs.begin(), xs.end()});
+    struct Square {
+        long long x, y, side;
+        int x_comp_beg = -1, x_comp_end = -1;
+    };
 
-    for (const auto& [y, delta, xl, xr] : events) {
-      const int coveredWidth = tree.getCoveredWidth();
-      const long areaGain = coveredWidth * static_cast<long>(y - prevY);
-      if (area + areaGain >= halfArea)
-        return prevY + (halfArea - area) / coveredWidth;
-      area += areaGain;
-      tree.add(xl, xr, delta);
-      prevY = y;
-    }
+    struct SquareTopBottom { // Event for sweep line
+        const Square* sq;
+        bool is_beg = true;
+        long long y;
+        SquareTopBottom(const Square* sq, bool is_beg)
+            : sq(sq), is_beg(is_beg), y(is_beg ? sq->y : sq->y + sq->side) {}
+        bool operator<(const SquareTopBottom& other) {
+            if (y != other.y) return y < other.y;
+            return sq->x < other.sq->x;
+        }
+    };
 
-    throw;
-  }
+    struct SegTreeLazy { // Segment tree with lazy propagation
+        const vector<int>& comp2x;
+        vector<int> covr, lazy_covr; // aggregate as min
+        vector<long long> xacc; // aggregate as sum
+        int half_size;
+        SegTreeLazy(const vector<int>& comp2x) : comp2x(comp2x) {
+            int pow = 0;
+            while ((1 << pow) < comp2x.size())
+                ++pow;
+            half_size = 1 << pow;
+            covr.resize(half_size * 2);
+            lazy_covr.resize(half_size * 2);
+            xacc.resize(half_size * 2);
+        }
 
- private:
-  // Returns the total area of the rectangles.
-  long getArea(const vector<tuple<int, int, int, int>>& events,
-               const set<int>& xs) {
-    long totalArea = 0;
-    int prevY = 0;
-    SegmentTree tree({xs.begin(), xs.end()});
-    for (const auto& [y, delta, xl, xr] : events) {
-      totalArea += tree.getCoveredWidth() * static_cast<long>(y - prevY);
-      tree.add(xl, xr, delta);
-      prevY = y;
-    }
-    return totalArea;
-  }
+        long long get_length_x() const { return xacc[1]; }
+
+        void inc(int beg, int end, int delta) { inc_impl(1, 0, half_size - 1, beg, end, delta); }
+
+        void inc_impl(int node, int left, int rght, int beg, int end, int delta) {
+            if (beg <= left && rght <= end) {
+                lazy_covr[node] += delta;
+                delta = 0;
+            }
+
+            if (lazy_covr[node]) {
+                if (left < rght) {
+                    lazy_covr[node * 2] += lazy_covr[node];
+                    lazy_covr[node * 2 + 1] += lazy_covr[node];
+                }
+                covr[node] += lazy_covr[node];
+                lazy_covr[node] = 0;
+                xacc[node] =
+                    covr[node] ? comp2x[rght + 1] - comp2x[left] :
+                    left < rght ? xacc[node * 2] + xacc[node * 2 + 1] :
+                    0;
+            }
+
+            if (rght < beg || left > end || left == rght) return;
+
+            if (beg <= left && rght <= end && covr[node] > 0) {
+                xacc[node] = comp2x[rght + 1] - comp2x[left];
+                return;
+            }
+
+            int mid = (left + rght) / 2;
+            inc_impl(node * 2, left, mid, beg, end, delta);
+            inc_impl(node * 2 + 1, mid + 1, rght, beg, end, delta);
+            xacc[node] = xacc[node * 2] + xacc[node * 2 + 1];
+        }
+    };
+
+    struct SegTreeSimple { // Optimized segment tree implementation
+        const vector<int>& comp2x;
+        vector<int> covr; // aggregate as min
+        vector<long long> xacc; // aggregate as sum
+        int half_size;
+        SegTreeSimple(const vector<int>& comp2x) : comp2x(comp2x) {
+            int pow = 0;
+            while ((1 << pow) < comp2x.size())
+                ++pow;
+            half_size = 1 << pow;
+            covr.resize(half_size * 2);
+            xacc.resize(half_size * 2);
+        }
+
+        long long get_length_x() const { return xacc[1]; }
+
+        void inc(int beg, int end, int delta) { inc_impl(1, 0, half_size - 1, beg, end, delta); }
+
+        void inc_impl(int node, int left, int rght, int beg, int end, int delta) {
+            if (rght < beg || left > end) return;
+
+            if (beg <= left && rght <= end) {
+                covr[node] += delta;
+            } else {
+                int mid = (left + rght) / 2;
+                inc_impl(node * 2, left, mid, beg, end, delta);
+                inc_impl(node * 2 + 1, mid + 1, rght, beg, end, delta);
+            }
+
+            xacc[node] =
+                covr[node] ? comp2x[rght + 1] - comp2x[left] :
+                left < rght ? xacc[node * 2] + xacc[node * 2 + 1] :
+                0;
+        }
+    };
+
+    struct SquareAccumulateStage {
+        long long cur_y, nxt_y, len_x;
+    };
 };
