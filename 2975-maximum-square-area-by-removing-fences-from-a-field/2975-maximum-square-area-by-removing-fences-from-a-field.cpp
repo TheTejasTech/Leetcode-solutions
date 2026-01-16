@@ -33,5 +33,7 @@ public:
         }
 
         return maxSide == 0 ? -1 : (1LL * maxSide * maxSide) % M;
+
+        
     }
 };
