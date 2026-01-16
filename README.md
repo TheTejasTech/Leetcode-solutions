@@ -82,6 +82,7 @@
 | [2856-count-complete-subarrays-in-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/tea7989/Leetcode-solutions/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2915-count-of-interesting-subarrays](https://github.com/tea7989/Leetcode-solutions/tree/master/2915-count-of-interesting-subarrays) |
+| [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/tea7989/Leetcode-solutions/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3001-apply-operations-to-maximize-score](https://github.com/tea7989/Leetcode-solutions/tree/master/3001-apply-operations-to-maximize-score) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -232,6 +233,7 @@
 | [2856-count-complete-subarrays-in-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/tea7989/Leetcode-solutions/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2915-count-of-interesting-subarrays](https://github.com/tea7989/Leetcode-solutions/tree/master/2915-count-of-interesting-subarrays) |
+| [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/tea7989/Leetcode-solutions/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [3227-find-missing-and-repeated-values](https://github.com/tea7989/Leetcode-solutions/tree/master/3227-find-missing-and-repeated-values) |
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/tea7989/Leetcode-solutions/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/tea7989/Leetcode-solutions/tree/master/3437-maximum-total-damage-with-spell-casting) |
@@ -632,6 +634,7 @@
 | [1656-count-good-triplets](https://github.com/tea7989/Leetcode-solutions/tree/master/1656-count-good-triplets) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/tea7989/Leetcode-solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2215-finding-3-digit-even-numbers](https://github.com/tea7989/Leetcode-solutions/tree/master/2215-finding-3-digit-even-numbers) |
+| [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/tea7989/Leetcode-solutions/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [2998-count-symmetric-integers](https://github.com/tea7989/Leetcode-solutions/tree/master/2998-count-symmetric-integers) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/tea7989/Leetcode-solutions/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
