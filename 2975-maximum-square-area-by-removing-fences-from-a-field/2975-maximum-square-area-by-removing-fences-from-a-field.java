@@ -1,54 +1,49 @@
-
 class Solution {
+    
+        private static final int M = 1_000_000_007;
+
     public int maximizeSquareArea(int m, int n, int[] hFences, int[] vFences) {
-        long mod = 1000000007L;
-        long maxLen=0L;
-        long temp = 0L;
 
+        List<Integer> hList = new ArrayList<>();
+        List<Integer> vList = new ArrayList<>();
 
-        int numY = 2+ hFences.length;
-        int numX = 2+ vFences.length;
+        for (int x : hFences) hList.add(x);
+        for (int x : vFences) vList.add(x);
 
-        int[] coordy = new int[numY];
-        int[] coordx = new int[numX];
-        coordy[0] = 1; coordy[numY-1] = m; coordx[0] = 1; coordx[numX-1] = n;
+        // add boundaries
+        hList.add(1);
+        hList.add(m);
+        vList.add(1);
+        vList.add(n);
 
-        Set<Long> diffs = new HashSet<Long>();
+        Collections.sort(hList);
+        Collections.sort(vList);
 
-        //build coordy and coordx so we can check pairs
-        for(int i = 1; i <= hFences.length; i++){
-            coordy[i]=hFences[i-1];
-        }
-        for(int j = 1; j <= vFences.length; j++){
-            coordx[j]=vFences[j-1];
-        }
+        Set<Integer> widths = new HashSet<>();
 
-        Arrays.sort(coordy);
-        Arrays.sort(coordx);
-
-        //first calculate horizontatl distances
-        for(int i =0; i<coordx.length; i++){
-            for(int j =i; j<coordx.length; j++){
-                long temp1 = (long)coordx[i]-coordx[j];
-                diffs.add(temp1);
+        // all vertical widths
+        for (int i = 0; i < vList.size(); i++) {
+            for (int j = i + 1; j < vList.size(); j++) {
+                widths.add(vList.get(j) - vList.get(i));
             }
         }
-        for(int a =0; a < coordy.length; a++){
-            for(int b =a; b < coordy.length; b++){
-                long temp2 = (long) coordy[a]-coordy[b];
-                if(temp2*temp2 <= maxLen) 
-                    continue;
-                boolean same = diffs.contains(temp2);
-                temp = temp2*temp2;
-                if(same){
-                    maxLen = Math.max(maxLen, temp);
+
+        int maxSide = 0;
+
+        // check horizontal heights
+        for (int i = 0; i < hList.size(); i++) {
+            for (int j = i + 1; j < hList.size(); j++) {
+                int height = hList.get(j) - hList.get(i);
+                if (widths.contains(height)) {
+                    maxSide = Math.max(maxSide, height);
                 }
             }
         }
-        if(maxLen == 0){
-            return -1;
-        }
-        return (int) (maxLen % mod);
 
+        if (maxSide == 0) 
+            return -1;
+
+        long area = (long) maxSide * maxSide;
+        return (int) (area % M);
     }
 }
