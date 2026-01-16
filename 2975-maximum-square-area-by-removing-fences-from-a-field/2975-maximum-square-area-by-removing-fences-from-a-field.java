@@ -1,6 +1,5 @@
 class Solution {
-    
-        private static final int M = 1_000_000_007;
+    private static final int M = 1_000_000_007;
 
     public int maximizeSquareArea(int m, int n, int[] hFences, int[] vFences) {
 
