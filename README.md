@@ -28,6 +28,7 @@
 | [1227-number-of-equivalent-domino-pairs](https://github.com/tea7989/Leetcode-solutions/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/tea7989/Leetcode-solutions/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1266-minimum-time-visiting-all-points](https://github.com/tea7989/Leetcode-solutions/tree/master/1266-minimum-time-visiting-all-points) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/tea7989/Leetcode-solutions/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1293-three-consecutive-odds](https://github.com/tea7989/Leetcode-solutions/tree/master/1293-three-consecutive-odds) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/tea7989/Leetcode-solutions/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/tea7989/Leetcode-solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
@@ -256,6 +257,7 @@
 | [0085-maximal-rectangle](https://github.com/tea7989/Leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0417-pacific-atlantic-water-flow](https://github.com/tea7989/Leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0498-diagonal-traverse](https://github.com/tea7989/Leetcode-solutions/tree/master/0498-diagonal-traverse) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/tea7989/Leetcode-solutions/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/tea7989/Leetcode-solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1628-count-submatrices-with-all-ones](https://github.com/tea7989/Leetcode-solutions/tree/master/1628-count-submatrices-with-all-ones) |
 | [1895-largest-magic-square](https://github.com/tea7989/Leetcode-solutions/tree/master/1895-largest-magic-square) |
@@ -338,6 +340,7 @@
 | ------- |
 | [0035-search-insert-position](https://github.com/tea7989/Leetcode-solutions/tree/master/0035-search-insert-position) |
 | [0611-valid-triangle-number](https://github.com/tea7989/Leetcode-solutions/tree/master/0611-valid-triangle-number) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/tea7989/Leetcode-solutions/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/tea7989/Leetcode-solutions/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/tea7989/Leetcode-solutions/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/tea7989/Leetcode-solutions/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
@@ -370,6 +373,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/tea7989/Leetcode-solutions/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1590-make-sum-divisible-by-p](https://github.com/tea7989/Leetcode-solutions/tree/master/1590-make-sum-divisible-by-p) |
 | [1895-largest-magic-square](https://github.com/tea7989/Leetcode-solutions/tree/master/1895-largest-magic-square) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/tea7989/Leetcode-solutions/tree/master/1930-unique-length-3-palindromic-subsequences) |
