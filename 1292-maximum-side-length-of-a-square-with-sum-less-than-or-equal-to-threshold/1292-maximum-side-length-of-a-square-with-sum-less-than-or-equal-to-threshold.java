@@ -1,58 +1,36 @@
 class Solution {
-    private boolean check(int side, int rows, int cols,int threshold,int[][] prefix ){
-        if (side == 0)
-            return true;
+    private int getRect(int[][] P, int x1, int y1, int x2, int y2) {
+        return P[x2][y2] - P[x1 - 1][y2] - P[x2][y1 - 1] + P[x1 - 1][y1 - 1];
+    }
 
-        for (int i = 0; i + side - 1 < rows; i++) {
-            for (int j = 0; j + side - 1 < cols; j++) {
+    public int maxSideLength(int[][] mat, int threshold) {
+        int m = mat.length;
+        int n = mat[0].length;
+        int[][] P = new int[m + 1][n + 1];
+        for (int i = 1; i <= m; ++i) {
+            for (int j = 1; j <= n; ++j) {
+                P[i][j] = P[i - 1][j] +
+                        P[i][j - 1] -
+                        P[i - 1][j - 1] +
+                        mat[i - 1][j - 1];
+            }
+        }
 
-                int r2 = i + side - 1;
-                int c2 = j + side - 1;
-
-                int sum = prefix[r2][c2];
-                if (i > 0) sum -= prefix[i - 1][c2];
-                if (j > 0) sum -= prefix[r2][j - 1];
-                if (i > 0 && j > 0) sum += prefix[i - 1][j - 1];
-
-                if (sum <= threshold) {
-                    return true;
+        int r = Math.min(m, n);
+        int ans = 0;
+        for (int i = 1; i <= m; ++i) {
+            for (int j = 1; j <= n; ++j) {
+                for (int c = ans + 1; c <= r; ++c) {
+                    if (i + c - 1 <= m &&
+                            j + c - 1 <= n &&
+                            getRect(P, i, j, i + c - 1, j + c - 1) <= threshold) {
+                        ++ans;
+                    } else {
+                        break;
+                    }
                 }
             }
         }
-        return false;
-    }
-    
-    public int maxSideLength(int[][] mat, int threshold) {
-        int rows = mat.length;
-        int cols = mat[0].length;
-
-        // Prefix sum without padding
-        int[][] prefix = new int[rows][cols];
-
-        for (int i = 0; i < rows; i++) {
-            for (int j = 0; j < cols; j++) {
-                prefix[i][j] =
-                        mat[i][j]
-                        + (i > 0 ? prefix[i - 1][j] : 0)
-                        + (j > 0 ? prefix[i][j - 1] : 0)
-                        - (i > 0 && j > 0 ? prefix[i - 1][j - 1] : 0);
-            }
-        }
-
-        int lo = 1, hi = Math.min(rows, cols);
-        int result = 0;
-
-        while (lo <= hi) {
-            int mid = lo + (hi - lo) / 2;
-
-            if (check(mid, rows, cols, threshold, prefix)) {
-                result = mid;
-                lo = mid + 1;
-            } else {
-                hi = mid - 1;
-            }
-        }
-
-        return result;
+        return ans;
     }
 }
