@@ -1,31 +1,20 @@
 class Solution {
 public:
     vector<int> minBitwiseArray(vector<int>& nums) {
-        vector<int> result;
-
-
-        for(int &num : nums) {
-            if(num == 2) {
-                result.push_back(-1);
-                continue;
-            }
-
-            bool found = false;
-            for(int j = 1; j < 32; j++) {
-                if((num & (1 << j)) > 0) { //set bit
-                    continue;
+        vector<int> res;
+        res.reserve(nums.size());
+        for (int num: nums) {
+            if (num % 2 == 0) {
+                res.push_back(-1);
+            } else {
+                int lowbit = 0;
+                for (int i = num; i & 1; i >>= 1) {
+                    lowbit = (lowbit << 1) + 1;
                 }
-
-                //we found an unset bit at jth position
-                result.push_back((num ^ (1 << (j-1)))); //set the first set bit to 0
-                found = true;
-                break;
+                int highbit = num - lowbit;
+                res.push_back(highbit | (lowbit >> 1));
             }
-
-            if(!found)
-                result.push_back(-1);
         }
-
-        return result;
+        return res;
     }
 };
