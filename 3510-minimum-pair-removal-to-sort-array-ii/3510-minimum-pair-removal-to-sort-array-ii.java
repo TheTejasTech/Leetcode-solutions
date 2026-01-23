@@ -1,65 +1,77 @@
 class Solution {
+
+    class Node implements Comparable<Node> {
+        int idx;
+        long val;
+        long sum;
+        Node prev;
+        Node next;
+
+        public Node(int idx, long val) {
+            this.idx = idx;
+            this.val = val;
+        }
+
+        @Override
+        public int compareTo(Node other) {
+            if (this.next == null || other.next == null) {
+                return this.next == null ? 1 : -1;
+            }
+            long diff = this.sum - other.sum;
+            return diff != 0 ? (diff < 0 ? -1 : 1)
+                             : (this.idx - other.idx);  
+        }
+    }
+
     public int minimumPairRemoval(int[] nums) {
-        final int n = nums.length;
-    int ans = 0;
-    int inversionsCount = 0;
-    int[] nextIndices = new int[n];
-    int[] prevIndices = new int[n];
-    long[] values = Arrays.stream(nums).asLongStream().toArray();
-    TreeSet<Pair<Long, Integer>> pairSums =
-        new TreeSet<>(Comparator.comparingLong(Pair<Long, Integer>::getKey)
-                          .thenComparingInt(Pair<Long, Integer>::getValue));
+        TreeSet<Node> set = new TreeSet<>();
+        int des = 0;
+        int len = nums.length;
+        Node iter = null;
+        for (int i = 0; i < len; i++) {
+            Node cur = new Node(i, nums[i]);
+            if (iter == null) {
+                iter = cur;
+            } else {
+                if (cur.val < iter.val) des++;
+                iter.next = cur;
+                cur.prev = iter;
+                iter.sum = iter.val + cur.val;
+                set.add(iter);
+                iter = cur;
+            }
+        }
+        set.add(iter);
 
-    for (int i = 0; i < n; ++i) {
-      nextIndices[i] = i + 1;
-      prevIndices[i] = i - 1;
-    }
+        int res = 0;
+        while (des > 0) {
+            res++;
+            Node smallSum = set.pollFirst();
+            Node remove = smallSum.next;
+            if (remove.val < smallSum.val) des--;
+            smallSum.sum = smallSum.val + remove.sum;
+            smallSum.val = smallSum.val + remove.val;
+            smallSum.next = remove.next;
 
-    for (int i = 0; i < n - 1; ++i)
-      pairSums.add(new Pair<>((long) nums[i] + nums[i + 1], i));
+            if (remove.next != null) {
+                if (remove.next.val < remove.val) des--;
+                remove.next.prev = smallSum;
+                if (smallSum.val > smallSum.next.val) des++;
+            }
+            set.remove(remove);
+            set.add(smallSum);
 
-    for (int i = 0; i < n - 1; ++i)
-      if (nums[i + 1] < nums[i])
-        ++inversionsCount;
-
-    while (inversionsCount > 0) {
-      ++ans;
-      Pair<Long, Integer> smallestPair = pairSums.pollFirst();
-      final long pairSum = smallestPair.getKey();
-      final int currIndex = smallestPair.getValue();
-      final int nextIndex = nextIndices[currIndex];
-      final int prevIndex = prevIndices[currIndex];
-      if (prevIndex >= 0) {
-        final long oldPairSum = values[prevIndex] + values[currIndex];
-        final long newPairSum = values[prevIndex] + pairSum;
-        pairSums.remove(new Pair<>(oldPairSum, prevIndex));
-        pairSums.add(new Pair<>(newPairSum, prevIndex));
-        if (values[prevIndex] > values[currIndex])
-          --inversionsCount;
-        if (values[prevIndex] > pairSum)
-          ++inversionsCount;
-      }
-
-      if (values[nextIndex] < values[currIndex])
-        --inversionsCount;
-
-      final int nextNextIndex = (nextIndex < n) ? nextIndices[nextIndex] : n;
-      if (nextNextIndex < n) {
-        final long oldPairSum = values[nextIndex] + values[nextNextIndex];
-        final long newPairSum = pairSum + values[nextNextIndex];
-        pairSums.remove(new Pair<>(oldPairSum, nextIndex));
-        pairSums.add(new Pair<>(newPairSum, currIndex));
-        if (values[nextNextIndex] < values[nextIndex])
-          --inversionsCount;
-        if (values[nextNextIndex] < pairSum)
-          ++inversionsCount;
-        prevIndices[nextNextIndex] = currIndex;
-      }
-
-      nextIndices[currIndex] = nextNextIndex;
-      values[currIndex] = pairSum;
-    }
-
-    return ans;
+            Node pre = smallSum.prev;
+            if (pre != null) {
+                set.remove(pre);
+                if (pre.val > pre.sum - pre.val) des--;
+                if (pre.val > smallSum.val) des++;
+                pre.sum = pre.val + smallSum.val;
+                pre.next = smallSum;
+                set.add(pre);
+            }
+        }
+        return res;
+        
     }
 }
