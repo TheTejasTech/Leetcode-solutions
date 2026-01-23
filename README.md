@@ -113,6 +113,7 @@
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/tea7989/Leetcode-solutions/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3531-count-covered-buildings](https://github.com/tea7989/Leetcode-solutions/tree/master/3531-count-covered-buildings) |
 | [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/tea7989/Leetcode-solutions/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
@@ -161,6 +162,7 @@
 | [2408-number-of-people-aware-of-a-secret](https://github.com/tea7989/Leetcode-solutions/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [3336-water-bottles-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3336-water-bottles-ii) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3790-fruits-into-baskets-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3790-fruits-into-baskets-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/tea7989/Leetcode-solutions/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Math
@@ -244,6 +246,7 @@
 | [3381-maximum-subarray-sum-with-length-divisible-by-k](https://github.com/tea7989/Leetcode-solutions/tree/master/3381-maximum-subarray-sum-with-length-divisible-by-k) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/tea7989/Leetcode-solutions/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3531-count-covered-buildings](https://github.com/tea7989/Leetcode-solutions/tree/master/3531-count-covered-buildings) |
 | [3548-find-the-count-of-good-integers](https://github.com/tea7989/Leetcode-solutions/tree/master/3548-find-the-count-of-good-integers) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -440,6 +443,7 @@
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/tea7989/Leetcode-solutions/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2681-put-marbles-in-bags](https://github.com/tea7989/Leetcode-solutions/tree/master/2681-put-marbles-in-bags) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/3647-zero-array-transformation-iii) |
@@ -683,6 +687,7 @@
 | [2280-count-good-triplets-in-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/2280-count-good-triplets-in-an-array) |
 | [2429-design-a-food-rating-system](https://github.com/tea7989/Leetcode-solutions/tree/master/2429-design-a-food-rating-system) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 | [3678-design-task-manager](https://github.com/tea7989/Leetcode-solutions/tree/master/3678-design-task-manager) |
 | [3790-fruits-into-baskets-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/3791-fruits-into-baskets-iii) |
@@ -700,6 +705,7 @@
 | ------- |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/tea7989/Leetcode-solutions/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 ## Trie
 |  |
 | ------- |
@@ -743,4 +749,5 @@
 |  |
 | ------- |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
+| [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
 <!---LeetCode Topics End-->
