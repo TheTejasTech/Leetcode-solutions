@@ -1,6 +1,5 @@
 class Solution {
-public:
-    typedef pair<int, int> P;
+public: typedef pair<int, int> P;
     int minCost(int n, vector<vector<int>>& edges) {
         unordered_map<int, vector<P>> adj;
 
