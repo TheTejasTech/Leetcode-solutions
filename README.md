@@ -86,6 +86,7 @@
 | [2888-minimum-index-of-a-valid-split](https://github.com/tea7989/Leetcode-solutions/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2915-count-of-interesting-subarrays](https://github.com/tea7989/Leetcode-solutions/tree/master/2915-count-of-interesting-subarrays) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/tea7989/Leetcode-solutions/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/tea7989/Leetcode-solutions/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3001-apply-operations-to-maximize-score](https://github.com/tea7989/Leetcode-solutions/tree/master/3001-apply-operations-to-maximize-score) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
@@ -314,6 +315,7 @@
 | [2346-largest-3-same-digit-number-in-string](https://github.com/tea7989/Leetcode-solutions/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [2429-design-a-food-rating-system](https://github.com/tea7989/Leetcode-solutions/tree/master/2429-design-a-food-rating-system) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/tea7989/Leetcode-solutions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/tea7989/Leetcode-solutions/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3194-find-words-containing-character](https://github.com/tea7989/Leetcode-solutions/tree/master/3194-find-words-containing-character) |
@@ -580,6 +582,7 @@
 |  |
 | ------- |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/tea7989/Leetcode-solutions/tree/master/2090-number-of-ways-to-arrive-at-destination) |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/tea7989/Leetcode-solutions/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/tea7989/Leetcode-solutions/tree/master/3650-minimum-cost-path-with-edge-reversals) |
@@ -762,5 +765,6 @@
 ## Graph Theory
 |  |
 | ------- |
+| [2976-minimum-cost-to-convert-string-i](https://github.com/tea7989/Leetcode-solutions/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/tea7989/Leetcode-solutions/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 <!---LeetCode Topics End-->
