@@ -1,60 +1,45 @@
 class Solution {
 public:
-    void dijkstra(char &source, unordered_map<char, vector<pair<char, int>>> &adj, vector<vector<long long>> &costMatrix) {
+    long long minimumCost(string source, string target, vector<char>& original, vector<char>& changed, vector<int>& cost) {
+        vector<vector<long long>> min_size(26,vector<long long>(26,INT_MAX));
+        int n=original.size();
 
-        //min-heap
-        priority_queue<pair<int, char>, vector<pair<int, char>>, greater<pair<int, char>>> pq;
+        for(int i=0;i<n;i++){
+            int u=original[i]-'a';
+            int v=changed[i]-'a';
+            int w=cost[i];
 
-        pq.push({0, source});
+            if(w<min_size[u][v]){
+                min_size[u][v]=w;
+            }
+        }
 
-        while(!pq.empty()) {
-            int d        = pq.top().first;
-            char adjNode = pq.top().second;
-            pq.pop();
-
-            for(auto &it : adj[adjNode]) {
-                char adjNode = it.first;
-                int cost      = it.second;
-
-                if(costMatrix[source - 'a'][adjNode - 'a'] > d + cost) {
-                    costMatrix[source - 'a'][adjNode - 'a'] = d + cost;
-                    pq.push({d + cost, adjNode});
+        for(int via=0;via<26;via++){
+            for(int i=0;i<26;i++){
+                for(int j=0;j<26;j++){
+                    if(min_size[i][via]!= INT_MAX && min_size[via][j]!= INT_MAX){
+                        if(min_size[i][via]+min_size[via][j]<min_size[i][j]){
+                            min_size[i][j]=min_size[i][via]+min_size[via][j];
+                        }
+                    }
                 }
             }
-
-        }
-        return;
-    }
-    long long minimumCost(string source, string target, vector<char>& original, vector<char>& changed, vector<int>& cost) {
-        unordered_map<char, vector<pair<char, int>>> adj;
-
-        for(int i = 0; i < original.size(); i++) {
-            adj[original[i]].push_back({changed[i], cost[i]});
         }
 
-        vector<vector<long long>> costMatrix(26, vector<long long>(26, INT_MAX));
+        int size=source.size();
+        long long total_cost=0;
 
-        //Populate the costMatrix using Dijkstra's Algorithm
-        for(int i = 0; i < source.length(); i++) { //n
-            char ch = source[i];
-            dijkstra(ch, adj, costMatrix);
-        }
-
-        long long ans = 0;
-
-        for(int i = 0; i < source.length(); i++) {
-            if(source[i] == target[i]) {
-                continue;
+        for(int i=0;i<size;i++){
+            if(source[i]!=target[i] ){
+                long long cost=min_size[source[i]-'a'][target[i]-'a'];
+                if(cost==INT_MAX){
+                    return -1;
+                }
+                total_cost+=cost;
             }
-
-            if(costMatrix[source[i] - 'a'][target[i] - 'a'] == INT_MAX) {
-                return -1;
-            }
-
-            ans += costMatrix[source[i] - 'a'][target[i] - 'a'];
-
         }
 
-        return ans;
+        return total_cost;
+
     }
 };
