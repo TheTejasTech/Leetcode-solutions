@@ -19,6 +19,7 @@
 | [0417-pacific-atlantic-water-flow](https://github.com/tea7989/Leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0498-diagonal-traverse](https://github.com/tea7989/Leetcode-solutions/tree/master/0498-diagonal-traverse) |
 | [0611-valid-triangle-number](https://github.com/tea7989/Leetcode-solutions/tree/master/0611-valid-triangle-number) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/tea7989/Leetcode-solutions/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0797-rabbits-in-forest](https://github.com/tea7989/Leetcode-solutions/tree/master/0797-rabbits-in-forest) |
 | [0830-largest-triangle-area](https://github.com/tea7989/Leetcode-solutions/tree/master/0830-largest-triangle-area) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/0960-delete-columns-to-make-sorted-iii) |
@@ -356,6 +357,7 @@
 | ------- |
 | [0035-search-insert-position](https://github.com/tea7989/Leetcode-solutions/tree/master/0035-search-insert-position) |
 | [0611-valid-triangle-number](https://github.com/tea7989/Leetcode-solutions/tree/master/0611-valid-triangle-number) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/tea7989/Leetcode-solutions/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/tea7989/Leetcode-solutions/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/tea7989/Leetcode-solutions/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/tea7989/Leetcode-solutions/tree/master/2141-maximum-running-time-of-n-computers) |
