@@ -90,6 +90,7 @@
 | [2976-minimum-cost-to-convert-string-i](https://github.com/tea7989/Leetcode-solutions/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3001-apply-operations-to-maximize-score](https://github.com/tea7989/Leetcode-solutions/tree/master/3001-apply-operations-to-maximize-score) |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
@@ -437,6 +438,7 @@
 | [2699-count-the-number-of-fair-pairs](https://github.com/tea7989/Leetcode-solutions/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/tea7989/Leetcode-solutions/tree/master/2888-minimum-index-of-a-valid-split) |
 | [3001-apply-operations-to-maximize-score](https://github.com/tea7989/Leetcode-solutions/tree/master/3001-apply-operations-to-maximize-score) |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/tea7989/Leetcode-solutions/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/tea7989/Leetcode-solutions/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3321-type-of-triangle](https://github.com/tea7989/Leetcode-solutions/tree/master/3321-type-of-triangle) |
@@ -673,6 +675,7 @@
 | [2215-finding-3-digit-even-numbers](https://github.com/tea7989/Leetcode-solutions/tree/master/2215-finding-3-digit-even-numbers) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/tea7989/Leetcode-solutions/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [2998-count-symmetric-integers](https://github.com/tea7989/Leetcode-solutions/tree/master/2998-count-symmetric-integers) |
+| [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/tea7989/Leetcode-solutions/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3548-find-the-count-of-good-integers](https://github.com/tea7989/Leetcode-solutions/tree/master/3548-find-the-count-of-good-integers) |
