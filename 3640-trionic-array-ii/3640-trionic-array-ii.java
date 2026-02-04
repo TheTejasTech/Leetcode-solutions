@@ -1,64 +1,50 @@
 class Solution {
-    int n;
-    long[][] memo;
-    static final long NEG_INF = Long.MIN_VALUE / 2;
-    long solve(int i, int trend, int[] nums) {
-        if (i == n) {
-            return (trend == 3) ? 0 : NEG_INF;
-        }
-
-        if (memo[i][trend] != Long.MIN_VALUE) {
-            return memo[i][trend];
-        }
-
-        long take = NEG_INF;
-        long skip = NEG_INF;
- 
-        if (trend == 0) {
-            skip = solve(i + 1, 0, nums);
-        }
- 
-        if (trend == 3) {
-            take = nums[i];
-        }
-
-        if (i + 1 < n) {
-            int curr = nums[i];
-            int next = nums[i + 1];
-
-            if (trend == 0 && next > curr) {
-                take = Math.max(take, curr + solve(i + 1, 1, nums));
-            } 
-            else if (trend == 1) {
-                if (next > curr) {
-                    take = Math.max(take, curr + solve(i + 1, 1, nums));
-                } else if (next < curr) {
-                    take = Math.max(take, curr + solve(i + 1, 2, nums));
-                }
-            } 
-            else if (trend == 2) {
-                if (next < curr) {
-                    take = Math.max(take, curr + solve(i + 1, 2, nums));
-                } else if (next > curr) {
-                    take = Math.max(take, curr + solve(i + 1, 3, nums));
-                }
-            } 
-            else if (trend == 3 && next > curr) {
-                take = Math.max(take, curr + solve(i + 1, 3, nums));
-            }
-        }
-
-        return memo[i][trend] = Math.max(take, skip);
-    }
     public long maxSumTrionic(int[] nums) {
-        n = nums.length;
-        memo = new long[n][4];
- 
-        for (int i = 0; i < n; i++) {
-            Arrays.fill(memo[i], Long.MIN_VALUE);
+        
+        int n = nums.length;
+        long res= -1 * (long)1e16;
+
+        for(int i=1;i<n-2;i++){
+
+            int a = i; 
+            int b = i; 
+
+            long net = nums[a];
+
+            while(b+1<n && nums[b+1] < nums[b]){
+                net+=(long)nums[b+1];
+                b++;
+            }
+
+            if(b==a)continue;
+
+            int c= b; 
+
+            long left = 0;
+            long right = 0;
+
+            long lx =Integer.MIN_VALUE;
+            long rx =Integer.MIN_VALUE;
+
+            while(a-1>=0 && nums[a-1] < nums[a]){
+                left+=(long)nums[a-1];
+                lx = Math.max(lx, left);
+                a--;
+            }
+
+            if(a==i)continue;
+
+            while(b+1<n && nums[b+1] > nums[b]){
+                right+=(long)nums[b+1];
+                rx = Math.max(rx, right);
+                b++;
+            }
+
+            if(b==c)continue;
+            i=b-1;
+            res = Math.max( res, lx+rx+net);
+
         }
-
-        return solve(0, 0, nums);
-
+        return res;
     }
 }
