@@ -128,6 +128,7 @@
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/tea7989/Leetcode-solutions/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3634-minimum-removals-to-balance-array](https://github.com/tea7989/Leetcode-solutions/tree/master/3634-minimum-removals-to-balance-array) |
 | [3637-trionic-array-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3637-trionic-array-i) |
 | [3639-zero-array-transformation-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3639-zero-array-transformation-i) |
 | [3640-trionic-array-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3640-trionic-array-ii) |
@@ -359,6 +360,7 @@
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/tea7989/Leetcode-solutions/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3483-alternating-groups-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3483-alternating-groups-ii) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3634-minimum-removals-to-balance-array](https://github.com/tea7989/Leetcode-solutions/tree/master/3634-minimum-removals-to-balance-array) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Binary Search
 |  |
@@ -452,6 +454,7 @@
 | [3430-count-days-without-meetings](https://github.com/tea7989/Leetcode-solutions/tree/master/3430-count-days-without-meetings) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/tea7989/Leetcode-solutions/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3531-count-covered-buildings](https://github.com/tea7989/Leetcode-solutions/tree/master/3531-count-covered-buildings) |
+| [3634-minimum-removals-to-balance-array](https://github.com/tea7989/Leetcode-solutions/tree/master/3634-minimum-removals-to-balance-array) |
 | [3647-zero-array-transformation-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/3647-zero-array-transformation-iii) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/tea7989/Leetcode-solutions/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Heap (Priority Queue)
