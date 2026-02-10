@@ -1,5 +1,4 @@
 class Solution {
-     
     public int longestBalanced(int[] nums) {
         int n = nums.length;
         int maxLen = 0;
