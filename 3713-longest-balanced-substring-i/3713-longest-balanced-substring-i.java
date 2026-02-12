@@ -1,39 +1,36 @@
 class Solution {
+    private boolean checkBalanced(int[] freq) {
+        int common = 0;
+
+        for (int f : freq) {
+            if (f == 0) continue;
+
+            if (common == 0) {
+                common = f;
+            } else if (f != common) {
+                return false;
+            }
+        }
+        return true;
+    }
+    
     public int longestBalanced(String s) {
         int n = s.length();
-        int[][] prefix = new int[n + 1][26];
-        for (int i = 1; i <= n; i++) {
-            int ch = s.charAt(i - 1) - 'a';
-            for (int c = 0; c < 26; c++) {
-                prefix[i][c] = prefix[i - 1][c] + (c == ch ? 1 : 0);
-            }
-        }
-        
-        String pireltonak = s;
-        
-        int maxLen = 0;
+        int maxL = 0;
+
         for (int i = 0; i < n; i++) {
+            int[] freq = new int[26];   // reset for every start index
+
             for (int j = i; j < n; j++) {
-                int common = -1;
-                boolean valid = true;
-                int distinct = 0;
-                for (int c = 0; c < 26; c++) {
-                    int f = prefix[j + 1][c] - prefix[i][c];
-                    if (f > 0) {
-                        distinct++;
-                        if (common == -1) {
-                            common = f;
-                        } else if (f != common) {
-                            valid = false;
-                            break;
-                        }
-                    }
-                }
-                if (valid && distinct > 0) {
-                    maxLen = Math.max(maxLen, j - i + 1);
+                freq[s.charAt(j) - 'a']++;
+
+                if (checkBalanced(freq)) {
+                    maxL = Math.max(maxL, j - i + 1);
                 }
             }
         }
-        return maxLen;
+
+        return maxL;
+
     }
 }
