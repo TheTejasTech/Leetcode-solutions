@@ -271,6 +271,7 @@
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/tea7989/Leetcode-solutions/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3678-design-task-manager](https://github.com/tea7989/Leetcode-solutions/tree/master/3678-design-task-manager) |
 | [3713-longest-balanced-substring-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3713-longest-balanced-substring-i) |
+| [3714-longest-balanced-substring-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3714-longest-balanced-substring-ii) |
 | [3721-longest-balanced-subarray-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3721-longest-balanced-subarray-ii) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/tea7989/Leetcode-solutions/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/tea7989/Leetcode-solutions/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
@@ -346,6 +347,7 @@
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/tea7989/Leetcode-solutions/tree/master/3637-count-number-of-balanced-permutations) |
 | [3713-longest-balanced-substring-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3713-longest-balanced-substring-i) |
+| [3714-longest-balanced-substring-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3714-longest-balanced-substring-ii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Sliding Window
 |  |
@@ -422,6 +424,7 @@
 | [3639-zero-array-transformation-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3639-zero-array-transformation-i) |
 | [3643-zero-array-transformation-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3643-zero-array-transformation-ii) |
 | [3647-zero-array-transformation-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/3647-zero-array-transformation-iii) |
+| [3714-longest-balanced-substring-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3714-longest-balanced-substring-ii) |
 | [3721-longest-balanced-subarray-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3721-longest-balanced-subarray-ii) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/tea7989/Leetcode-solutions/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
