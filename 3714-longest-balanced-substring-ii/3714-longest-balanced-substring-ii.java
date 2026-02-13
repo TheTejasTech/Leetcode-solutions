@@ -1,112 +1,93 @@
+ 
 class Solution {
-    static class Pair {
-        int d1, d2;
-
-        Pair(int d1, int d2) {
-            this.d1 = d1;
-            this.d2 = d2;
-        }
-
-        @Override
-        public boolean equals(Object o) {
-            if (this == o) return true;
-            if (!(o instanceof Pair)) return false;
-            Pair p = (Pair) o;
-            return d1 == p.d1 && d2 == p.d2;
-        }
-
-        @Override
-        public int hashCode() {
-            return 31 * d1 + d2;
-        }
-    }
-
-    private int find2(char[] c, char x, char y) {
-
-        int n = c.length;
-        int max_len = 0;
-
-        int[] first = new int[2 * n + 1];
-        Arrays.fill(first, -2);
-
-        int clear_idx = -1;
-        int diff = n;
-
-        first[diff] = -1;
-
-        for (int i = 0; i < n; i++) {
-
-            if (c[i] != x && c[i] != y) {
-
-                clear_idx = i;
-                diff = n;
-                first[diff] = clear_idx;
-
+    public int longestBalanced(String s) {
+        int n = s.length();
+        String stromadive = s;
+         
+        int max1 = 1;
+        int curr = 1;
+        for (int i = 1; i < n; i++) {
+            if (s.charAt(i) == s.charAt(i - 1)) {
+                curr++;
             } else {
-
-                if (c[i] == x) diff++;
-                else diff--;
-
-                if (first[diff] < clear_idx) {
-                    first[diff] = i;
-                } else {
-                    max_len = Math.max(max_len, i - first[diff]);
+                max1 = Math.max(max1, curr);
+                curr = 1;
+            }
+        }
+        max1 = Math.max(max1, curr);
+         
+        int max2 = 0;
+        char[] chars = {'a', 'b', 'c'};
+        for (int p = 0; p < 3; p++) {
+            char x = chars[p];
+            char y = chars[(p + 1) % 3];
+            char z = chars[(p + 2) % 3];
+            int ii = 0;
+            while (ii < n) {
+                if (s.charAt(ii) == z) {
+                    ii++;
+                    continue;
+                }
+                int start = ii;
+                while (ii < n && s.charAt(ii) != z) {
+                    ii++;
+                }
+                int endd = ii;
+                int len_seg = endd - start;
+                if (len_seg < 2) {
+                    continue;
+                }
+                HashMap<Integer, Integer> map2 = new HashMap<>();
+                int diff = 0;
+                map2.put(0, 0);
+                for (int j = start; j < endd; j++) {
+                    char ch = s.charAt(j);
+                    if (ch == x) {
+                        diff += 1;
+                    } else if (ch == y) {
+                        diff -= 1;
+                    }
+                    int local_pos = j - start + 1;
+                    Integer prevv = map2.get(diff);
+                    if (prevv != null) {
+                        max2 = Math.max(max2, local_pos - prevv);
+                    }
+                    if (!map2.containsKey(diff)) {
+                        map2.put(diff, local_pos);
+                    }
                 }
             }
         }
-
-        return max_len;
-    }
-
-    public int longestBalanced(String s) {
-        char[] c = s.toCharArray();
-        int n = c.length;
-
-        int res = 0;
-
-        //Case-1
-        int cur = 1;
-
-        for (int i = 1; i < n; i++) {
-            if (c[i] == c[i - 1]) {
-                cur++;
-            } else {
-                res = Math.max(res, cur);
-                cur = 1;
+         
+        int max3 = 0;
+        HashMap<Long, Integer> map3 = new HashMap<>();
+        int d1 = 0;
+        int d2 = 0;
+        long offset = 100001L;
+        long mult = 200003L;
+        long keyy = (long) (d1 + offset) * mult + (d2 + offset);
+        map3.put(keyy, 0);
+        for (int i = 1; i <= n; i++) {
+            char ch = s.charAt(i - 1);
+            if (ch == 'a') {
+                d1 += 1;
+                d2 += 1;
+            } else if (ch == 'b') {
+                d1 -= 1;
+            } else if (ch == 'c') {
+                d2 -= 1;
             }
-        }
-        res = Math.max(res, cur);
-
-        //Case-2
-        res = Math.max(res, find2(c, 'a', 'b'));
-        res = Math.max(res, find2(c, 'a', 'c'));
-        res = Math.max(res, find2(c, 'b', 'c'));
-
-        
-        //Case-3
-        int ca = 0, cb = 0, cc = 0;
-
-        Map<Pair, Integer> mp = new HashMap<>();
-
-        for (int i = 0; i < n; i++) {
-
-            if (c[i] == 'a') ca++;
-            else if (c[i] == 'b') cb++;
-            else cc++;
-
-            if(ca == cb && ca == cc)
-                res = Math.max(res, ca+cb+cc);
-
-            Pair key = new Pair(ca - cb, ca - cc);
-
-            Integer prev = mp.get(key);
+            keyy = (long) (d1 + offset) * mult + (d2 + offset);
+            Integer prev = map3.get(keyy);
             if (prev != null) {
-                res = Math.max(res, i - prev);
-            } else {
-                mp.put(key, i);
+                max3 = Math.max(max3, i - prev);
+            }
+            if (!map3.containsKey(keyy)) {
+                map3.put(keyy, i);
             }
         }
-
-        return res;
+        
+        int ans = Math.max(max1, Math.max(max2, max3));
+        return ans;
     }
 }
