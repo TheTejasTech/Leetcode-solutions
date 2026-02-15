@@ -164,6 +164,7 @@
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/tea7989/Leetcode-solutions/tree/master/0043-multiply-strings) |
+| [0067-add-binary](https://github.com/tea7989/Leetcode-solutions/tree/master/0067-add-binary) |
 | [0498-diagonal-traverse](https://github.com/tea7989/Leetcode-solutions/tree/master/0498-diagonal-traverse) |
 | [1642-water-bottles](https://github.com/tea7989/Leetcode-solutions/tree/master/1642-water-bottles) |
 | [2048-build-array-from-permutation](https://github.com/tea7989/Leetcode-solutions/tree/master/2048-build-array-from-permutation) |
@@ -183,6 +184,7 @@
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/tea7989/Leetcode-solutions/tree/master/0043-multiply-strings) |
+| [0067-add-binary](https://github.com/tea7989/Leetcode-solutions/tree/master/0067-add-binary) |
 | [0231-power-of-two](https://github.com/tea7989/Leetcode-solutions/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/tea7989/Leetcode-solutions/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/tea7989/Leetcode-solutions/tree/master/0342-power-of-four) |
@@ -310,6 +312,7 @@
 | ------- |
 | [0038-count-and-say](https://github.com/tea7989/Leetcode-solutions/tree/master/0038-count-and-say) |
 | [0043-multiply-strings](https://github.com/tea7989/Leetcode-solutions/tree/master/0043-multiply-strings) |
+| [0067-add-binary](https://github.com/tea7989/Leetcode-solutions/tree/master/0067-add-binary) |
 | [0165-compare-version-numbers](https://github.com/tea7989/Leetcode-solutions/tree/master/0165-compare-version-numbers) |
 | [0389-find-the-difference](https://github.com/tea7989/Leetcode-solutions/tree/master/0389-find-the-difference) |
 | [0768-partition-labels](https://github.com/tea7989/Leetcode-solutions/tree/master/0768-partition-labels) |
@@ -492,6 +495,7 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/tea7989/Leetcode-solutions/tree/master/0067-add-binary) |
 | [0137-single-number-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/0137-single-number-ii) |
 | [0231-power-of-two](https://github.com/tea7989/Leetcode-solutions/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/tea7989/Leetcode-solutions/tree/master/0342-power-of-four) |
