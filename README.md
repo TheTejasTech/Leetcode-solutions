@@ -152,6 +152,7 @@
 | [0075-sort-colors](https://github.com/tea7989/Leetcode-solutions/tree/master/0075-sort-colors) |
 | [0165-compare-version-numbers](https://github.com/tea7989/Leetcode-solutions/tree/master/0165-compare-version-numbers) |
 | [0611-valid-triangle-number](https://github.com/tea7989/Leetcode-solutions/tree/master/0611-valid-triangle-number) |
+| [0696-count-binary-substrings](https://github.com/tea7989/Leetcode-solutions/tree/master/0696-count-binary-substrings) |
 | [0768-partition-labels](https://github.com/tea7989/Leetcode-solutions/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/tea7989/Leetcode-solutions/tree/master/0868-push-dominoes) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/tea7989/Leetcode-solutions/tree/master/1877-minimize-maximum-pair-sum-in-array) |
@@ -315,6 +316,7 @@
 | [0067-add-binary](https://github.com/tea7989/Leetcode-solutions/tree/master/0067-add-binary) |
 | [0165-compare-version-numbers](https://github.com/tea7989/Leetcode-solutions/tree/master/0165-compare-version-numbers) |
 | [0389-find-the-difference](https://github.com/tea7989/Leetcode-solutions/tree/master/0389-find-the-difference) |
+| [0696-count-binary-substrings](https://github.com/tea7989/Leetcode-solutions/tree/master/0696-count-binary-substrings) |
 | [0768-partition-labels](https://github.com/tea7989/Leetcode-solutions/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/tea7989/Leetcode-solutions/tree/master/0868-push-dominoes) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/0960-delete-columns-to-make-sorted-iii) |
