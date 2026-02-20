@@ -317,6 +317,7 @@
 | [0165-compare-version-numbers](https://github.com/tea7989/Leetcode-solutions/tree/master/0165-compare-version-numbers) |
 | [0389-find-the-difference](https://github.com/tea7989/Leetcode-solutions/tree/master/0389-find-the-difference) |
 | [0696-count-binary-substrings](https://github.com/tea7989/Leetcode-solutions/tree/master/0696-count-binary-substrings) |
+| [0761-special-binary-string](https://github.com/tea7989/Leetcode-solutions/tree/master/0761-special-binary-string) |
 | [0768-partition-labels](https://github.com/tea7989/Leetcode-solutions/tree/master/0768-partition-labels) |
 | [0868-push-dominoes](https://github.com/tea7989/Leetcode-solutions/tree/master/0868-push-dominoes) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/0960-delete-columns-to-make-sorted-iii) |
@@ -437,6 +438,7 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0761-special-binary-string](https://github.com/tea7989/Leetcode-solutions/tree/master/0761-special-binary-string) |
 | [1382-balance-a-binary-search-tree](https://github.com/tea7989/Leetcode-solutions/tree/master/1382-balance-a-binary-search-tree) |
 | [2280-count-good-triplets-in-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/2280-count-good-triplets-in-an-array) |
 | [3721-longest-balanced-subarray-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3721-longest-balanced-subarray-ii) |
@@ -449,6 +451,7 @@
 | [0368-largest-divisible-subset](https://github.com/tea7989/Leetcode-solutions/tree/master/0368-largest-divisible-subset) |
 | [0389-find-the-difference](https://github.com/tea7989/Leetcode-solutions/tree/master/0389-find-the-difference) |
 | [0611-valid-triangle-number](https://github.com/tea7989/Leetcode-solutions/tree/master/0611-valid-triangle-number) |
+| [0761-special-binary-string](https://github.com/tea7989/Leetcode-solutions/tree/master/0761-special-binary-string) |
 | [1018-largest-perimeter-triangle](https://github.com/tea7989/Leetcode-solutions/tree/master/1018-largest-perimeter-triangle) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/tea7989/Leetcode-solutions/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/tea7989/Leetcode-solutions/tree/master/1877-minimize-maximum-pair-sum-in-array) |
