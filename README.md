@@ -334,6 +334,7 @@
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/tea7989/Leetcode-solutions/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/tea7989/Leetcode-solutions/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/tea7989/Leetcode-solutions/tree/master/1653-minimum-deletions-to-make-string-balanced) |
+| [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/tea7989/Leetcode-solutions/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/tea7989/Leetcode-solutions/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1930-unique-length-3-palindromic-subsequences](https://github.com/tea7989/Leetcode-solutions/tree/master/1930-unique-length-3-palindromic-subsequences) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/tea7989/Leetcode-solutions/tree/master/2079-delete-duplicate-folders-in-system) |
@@ -673,6 +674,7 @@
 | [1262-greatest-sum-divisible-by-three](https://github.com/tea7989/Leetcode-solutions/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1382-balance-a-binary-search-tree](https://github.com/tea7989/Leetcode-solutions/tree/master/1382-balance-a-binary-search-tree) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/tea7989/Leetcode-solutions/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
+| [1689-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/tea7989/Leetcode-solutions/tree/master/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/tea7989/Leetcode-solutions/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/tea7989/Leetcode-solutions/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/tea7989/Leetcode-solutions/tree/master/1877-minimize-maximum-pair-sum-in-array) |
