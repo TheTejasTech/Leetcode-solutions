@@ -23,6 +23,6 @@ class Solution {
                 }
             }
         }  
-        return countone;     
+        return countone; 
     }
 }
