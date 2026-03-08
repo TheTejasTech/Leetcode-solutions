@@ -1,6 +1,7 @@
 class Solution {
     public String findDifferentBinaryString(String[] nums) {
-         int mask = 0;
+        
+        int mask = 0;
         for (var x : nums) {
             int cnt = 0;
             for (int i = 0; i < x.length(); ++i) {
