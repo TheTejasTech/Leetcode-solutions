@@ -335,6 +335,7 @@
 | [1302-delete-characters-to-make-fancy-string](https://github.com/tea7989/Leetcode-solutions/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/tea7989/Leetcode-solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/tea7989/Leetcode-solutions/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
+| [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/tea7989/Leetcode-solutions/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/tea7989/Leetcode-solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/tea7989/Leetcode-solutions/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/tea7989/Leetcode-solutions/tree/master/1545-find-kth-bit-in-nth-binary-string) |
@@ -739,6 +740,7 @@
 |  |
 | ------- |
 | [0401-binary-watch](https://github.com/tea7989/Leetcode-solutions/tree/master/0401-binary-watch) |
+| [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/tea7989/Leetcode-solutions/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1980-find-unique-binary-string](https://github.com/tea7989/Leetcode-solutions/tree/master/1980-find-unique-binary-string) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/tea7989/Leetcode-solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Combinatorics
