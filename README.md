@@ -206,6 +206,7 @@
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/tea7989/Leetcode-solutions/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/tea7989/Leetcode-solutions/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/tea7989/Leetcode-solutions/tree/master/1500-count-largest-group) |
+| [1622-fancy-sequence](https://github.com/tea7989/Leetcode-solutions/tree/master/1622-fancy-sequence) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/tea7989/Leetcode-solutions/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1642-water-bottles](https://github.com/tea7989/Leetcode-solutions/tree/master/1642-water-bottles) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/tea7989/Leetcode-solutions/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
@@ -780,6 +781,7 @@
 ## Segment Tree
 |  |
 | ------- |
+| [1622-fancy-sequence](https://github.com/tea7989/Leetcode-solutions/tree/master/1622-fancy-sequence) |
 | [2280-count-good-triplets-in-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/2280-count-good-triplets-in-an-array) |
 | [3454-separate-squares-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3454-separate-squares-ii) |
 | [3721-longest-balanced-subarray-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3721-longest-balanced-subarray-ii) |
@@ -840,6 +842,7 @@
 ## Design
 |  |
 | ------- |
+| [1622-fancy-sequence](https://github.com/tea7989/Leetcode-solutions/tree/master/1622-fancy-sequence) |
 | [2429-design-a-food-rating-system](https://github.com/tea7989/Leetcode-solutions/tree/master/2429-design-a-food-rating-system) |
 | [3678-design-task-manager](https://github.com/tea7989/Leetcode-solutions/tree/master/3678-design-task-manager) |
 ## Geometry
