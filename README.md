@@ -40,6 +40,7 @@
 | [1582-special-positions-in-a-binary-matrix](https://github.com/tea7989/Leetcode-solutions/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/tea7989/Leetcode-solutions/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1590-make-sum-divisible-by-p](https://github.com/tea7989/Leetcode-solutions/tree/master/1590-make-sum-divisible-by-p) |
+| [1594-maximum-non-negative-product-in-a-matrix](https://github.com/tea7989/Leetcode-solutions/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1628-count-submatrices-with-all-ones](https://github.com/tea7989/Leetcode-solutions/tree/master/1628-count-submatrices-with-all-ones) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/tea7989/Leetcode-solutions/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1656-count-good-triplets](https://github.com/tea7989/Leetcode-solutions/tree/master/1656-count-good-triplets) |
@@ -303,6 +304,7 @@
 | [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/tea7989/Leetcode-solutions/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/tea7989/Leetcode-solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/tea7989/Leetcode-solutions/tree/master/1582-special-positions-in-a-binary-matrix) |
+| [1594-maximum-non-negative-product-in-a-matrix](https://github.com/tea7989/Leetcode-solutions/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1628-count-submatrices-with-all-ones](https://github.com/tea7989/Leetcode-solutions/tree/master/1628-count-submatrices-with-all-ones) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/tea7989/Leetcode-solutions/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/tea7989/Leetcode-solutions/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
@@ -636,6 +638,7 @@
 | [1262-greatest-sum-divisible-by-three](https://github.com/tea7989/Leetcode-solutions/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/tea7989/Leetcode-solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/tea7989/Leetcode-solutions/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [1594-maximum-non-negative-product-in-a-matrix](https://github.com/tea7989/Leetcode-solutions/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1628-count-submatrices-with-all-ones](https://github.com/tea7989/Leetcode-solutions/tree/master/1628-count-submatrices-with-all-ones) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/tea7989/Leetcode-solutions/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/tea7989/Leetcode-solutions/tree/master/1653-minimum-deletions-to-make-string-balanced) |
