@@ -93,6 +93,7 @@
 | [2888-minimum-index-of-a-valid-split](https://github.com/tea7989/Leetcode-solutions/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2906-construct-product-matrix](https://github.com/tea7989/Leetcode-solutions/tree/master/2906-construct-product-matrix) |
 | [2915-count-of-interesting-subarrays](https://github.com/tea7989/Leetcode-solutions/tree/master/2915-count-of-interesting-subarrays) |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/tea7989/Leetcode-solutions/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [2975-maximum-square-area-by-removing-fences-from-a-field](https://github.com/tea7989/Leetcode-solutions/tree/master/2975-maximum-square-area-by-removing-fences-from-a-field) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/tea7989/Leetcode-solutions/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/2977-minimum-cost-to-convert-string-ii) |
@@ -187,6 +188,7 @@
 | [2324-find-triangular-sum-of-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/tea7989/Leetcode-solutions/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/tea7989/Leetcode-solutions/tree/master/2408-number-of-people-aware-of-a-secret) |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/tea7989/Leetcode-solutions/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3336-water-bottles-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3336-water-bottles-ii) |
 | [3379-transformed-array](https://github.com/tea7989/Leetcode-solutions/tree/master/3379-transformed-array) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
@@ -228,6 +230,7 @@
 | [2610-closest-prime-numbers-in-range](https://github.com/tea7989/Leetcode-solutions/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/tea7989/Leetcode-solutions/tree/master/2649-count-total-number-of-colored-cells) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/tea7989/Leetcode-solutions/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/tea7989/Leetcode-solutions/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [2998-count-symmetric-integers](https://github.com/tea7989/Leetcode-solutions/tree/master/2998-count-symmetric-integers) |
 | [3001-apply-operations-to-maximize-score](https://github.com/tea7989/Leetcode-solutions/tree/master/3001-apply-operations-to-maximize-score) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/tea7989/Leetcode-solutions/tree/master/3172-divisible-and-non-divisible-sums-difference) |
@@ -319,6 +322,7 @@
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/tea7989/Leetcode-solutions/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2625-increment-submatrices-by-one](https://github.com/tea7989/Leetcode-solutions/tree/master/2625-increment-submatrices-by-one) |
 | [2906-construct-product-matrix](https://github.com/tea7989/Leetcode-solutions/tree/master/2906-construct-product-matrix) |
+| [2946-matrix-similarity-after-cyclic-shifts](https://github.com/tea7989/Leetcode-solutions/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3227-find-missing-and-repeated-values](https://github.com/tea7989/Leetcode-solutions/tree/master/3227-find-missing-and-repeated-values) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3546-equal-sum-grid-partition-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3546-equal-sum-grid-partition-i) |
