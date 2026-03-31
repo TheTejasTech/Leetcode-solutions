@@ -383,6 +383,7 @@
 | [3243-count-the-number-of-powerful-integers](https://github.com/tea7989/Leetcode-solutions/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3396-valid-word](https://github.com/tea7989/Leetcode-solutions/tree/master/3396-valid-word) |
 | [3462-vowels-game-in-a-string](https://github.com/tea7989/Leetcode-solutions/tree/master/3462-vowels-game-in-a-string) |
+| [3474-lexicographically-smallest-generated-string](https://github.com/tea7989/Leetcode-solutions/tree/master/3474-lexicographically-smallest-generated-string) |
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/tea7989/Leetcode-solutions/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/tea7989/Leetcode-solutions/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -730,6 +731,7 @@
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/tea7989/Leetcode-solutions/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/tea7989/Leetcode-solutions/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/tea7989/Leetcode-solutions/tree/master/3307-find-the-maximum-sum-of-node-values) |
+| [3474-lexicographically-smallest-generated-string](https://github.com/tea7989/Leetcode-solutions/tree/master/3474-lexicographically-smallest-generated-string) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/tea7989/Leetcode-solutions/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/tea7989/Leetcode-solutions/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
 | [3647-zero-array-transformation-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/3647-zero-array-transformation-iii) |
@@ -915,4 +917,8 @@
 |  |
 | ------- |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/tea7989/Leetcode-solutions/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
+## String Matching
+|  |
+| ------- |
+| [3474-lexicographically-smallest-generated-string](https://github.com/tea7989/Leetcode-solutions/tree/master/3474-lexicographically-smallest-generated-string) |
 <!---LeetCode Topics End-->
