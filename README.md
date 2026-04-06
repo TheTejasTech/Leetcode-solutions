@@ -22,6 +22,7 @@
 | [0744-find-smallest-letter-greater-than-target](https://github.com/tea7989/Leetcode-solutions/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0797-rabbits-in-forest](https://github.com/tea7989/Leetcode-solutions/tree/master/0797-rabbits-in-forest) |
 | [0830-largest-triangle-area](https://github.com/tea7989/Leetcode-solutions/tree/master/0830-largest-triangle-area) |
+| [0874-walking-robot-simulation](https://github.com/tea7989/Leetcode-solutions/tree/master/0874-walking-robot-simulation) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/0960-delete-columns-to-make-sorted-iii) |
 | [1018-largest-perimeter-triangle](https://github.com/tea7989/Leetcode-solutions/tree/master/1018-largest-perimeter-triangle) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/tea7989/Leetcode-solutions/tree/master/1049-minimum-domino-rotations-for-equal-row) |
@@ -180,6 +181,7 @@
 | [0067-add-binary](https://github.com/tea7989/Leetcode-solutions/tree/master/0067-add-binary) |
 | [0498-diagonal-traverse](https://github.com/tea7989/Leetcode-solutions/tree/master/0498-diagonal-traverse) |
 | [0657-robot-return-to-origin](https://github.com/tea7989/Leetcode-solutions/tree/master/0657-robot-return-to-origin) |
+| [0874-walking-robot-simulation](https://github.com/tea7989/Leetcode-solutions/tree/master/0874-walking-robot-simulation) |
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/tea7989/Leetcode-solutions/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/tea7989/Leetcode-solutions/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1642-water-bottles](https://github.com/tea7989/Leetcode-solutions/tree/master/1642-water-bottles) |
@@ -260,6 +262,7 @@
 | [0768-partition-labels](https://github.com/tea7989/Leetcode-solutions/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/tea7989/Leetcode-solutions/tree/master/0797-rabbits-in-forest) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/tea7989/Leetcode-solutions/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+| [0874-walking-robot-simulation](https://github.com/tea7989/Leetcode-solutions/tree/master/0874-walking-robot-simulation) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/tea7989/Leetcode-solutions/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/tea7989/Leetcode-solutions/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/tea7989/Leetcode-solutions/tree/master/1227-number-of-equivalent-domino-pairs) |
