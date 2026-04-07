@@ -187,6 +187,7 @@
 | [1642-water-bottles](https://github.com/tea7989/Leetcode-solutions/tree/master/1642-water-bottles) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/tea7989/Leetcode-solutions/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [2048-build-array-from-permutation](https://github.com/tea7989/Leetcode-solutions/tree/master/2048-build-array-from-permutation) |
+| [2069-walking-robot-simulation-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/2069-walking-robot-simulation-ii) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/tea7989/Leetcode-solutions/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2211-count-collisions-on-a-road](https://github.com/tea7989/Leetcode-solutions/tree/master/2211-count-collisions-on-a-road) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/tea7989/Leetcode-solutions/tree/master/2265-partition-array-according-to-given-pivot) |
@@ -890,6 +891,7 @@
 |  |
 | ------- |
 | [1622-fancy-sequence](https://github.com/tea7989/Leetcode-solutions/tree/master/1622-fancy-sequence) |
+| [2069-walking-robot-simulation-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/2069-walking-robot-simulation-ii) |
 | [2429-design-a-food-rating-system](https://github.com/tea7989/Leetcode-solutions/tree/master/2429-design-a-food-rating-system) |
 | [3678-design-task-manager](https://github.com/tea7989/Leetcode-solutions/tree/master/3678-design-task-manager) |
 ## Geometry
