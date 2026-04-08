@@ -16,6 +16,6 @@ class Solution {
         for (int num : nums) {
             result ^= num;
         }
-        return result;
+        return result; 
     }
 }
