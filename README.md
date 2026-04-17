@@ -162,6 +162,7 @@
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/tea7989/Leetcode-solutions/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/tea7989/Leetcode-solutions/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/tea7989/Leetcode-solutions/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3790-fruits-into-baskets-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3790-fruits-into-baskets-ii) |
 | [3791-fruits-into-baskets-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/3791-fruits-into-baskets-iii) |
@@ -263,6 +264,7 @@
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/tea7989/Leetcode-solutions/tree/master/3637-count-number-of-balanced-permutations) |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/tea7989/Leetcode-solutions/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 ## Hash Table
 |  |
 | ------- |
@@ -319,6 +321,7 @@
 | [3721-longest-balanced-subarray-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3721-longest-balanced-subarray-ii) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
+| [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/tea7989/Leetcode-solutions/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/tea7989/Leetcode-solutions/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/tea7989/Leetcode-solutions/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
 ## Matrix
