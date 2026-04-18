@@ -265,6 +265,7 @@
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/tea7989/Leetcode-solutions/tree/master/3637-count-number-of-balanced-permutations) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/tea7989/Leetcode-solutions/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
+| [3783-mirror-distance-of-an-integer](https://github.com/tea7989/Leetcode-solutions/tree/master/3783-mirror-distance-of-an-integer) |
 ## Hash Table
 |  |
 | ------- |
