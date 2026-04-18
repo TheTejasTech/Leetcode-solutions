@@ -1,14 +1,10 @@
 class Solution {
-    public int getReveres(int n){
-        int rev = 0;
-        while(n > 0){
-            int digit = n % 10;
-            rev = rev * 10 + digit ;
-            n=n/10;
-        }
+    public int mirrorDistance(int n) {
+        StringBuilder sb = new StringBuilder(String.valueOf(n));
+        sb.reverse();
+        int rev = Integer.parseInt(sb.toString());
+        rev = n - rev;
+        rev = Math.abs(rev);
         return rev;
-    }
-    public int mirrorDistance(int n) { 
-        return Math.abs(n - getReveres(n));
     }
 }
