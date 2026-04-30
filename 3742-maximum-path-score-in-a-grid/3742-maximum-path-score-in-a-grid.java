@@ -1,5 +1,4 @@
-class Solution {
-     
+class Solution { 
     public int maxPathScore(int[][] grid, int k) {
         int m = grid.length;
         int n = grid[0].length;
@@ -19,7 +18,7 @@ class Solution {
             for (int j = n - 1; j >= 0; j--) {
                 for (int cost = k; cost >= 0; cost--) {
 
-                    int newCost = cost + (grid[i][j] > 0? 1 : 0);
+                    int newCost = cost + (grid[i][j] > 0?1:0);
 
                     if (newCost > k) continue;
 
