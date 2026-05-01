@@ -15,6 +15,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0274-h-index](https://github.com/tea7989/Leetcode-solutions/tree/master/0274-h-index) |
 | [0368-largest-divisible-subset](https://github.com/tea7989/Leetcode-solutions/tree/master/0368-largest-divisible-subset) |
+| [0396-rotate-function](https://github.com/tea7989/Leetcode-solutions/tree/master/0396-rotate-function) |
 | [0416-partition-equal-subset-sum](https://github.com/tea7989/Leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/tea7989/Leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0498-diagonal-traverse](https://github.com/tea7989/Leetcode-solutions/tree/master/0498-diagonal-traverse) |
@@ -232,6 +233,7 @@
 | [0326-power-of-three](https://github.com/tea7989/Leetcode-solutions/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/tea7989/Leetcode-solutions/tree/master/0342-power-of-four) |
 | [0368-largest-divisible-subset](https://github.com/tea7989/Leetcode-solutions/tree/master/0368-largest-divisible-subset) |
+| [0396-rotate-function](https://github.com/tea7989/Leetcode-solutions/tree/master/0396-rotate-function) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/tea7989/Leetcode-solutions/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
 | [0797-rabbits-in-forest](https://github.com/tea7989/Leetcode-solutions/tree/master/0797-rabbits-in-forest) |
 | [0830-largest-triangle-area](https://github.com/tea7989/Leetcode-solutions/tree/master/0830-largest-triangle-area) |
@@ -709,6 +711,7 @@
 | [0118-pascals-triangle](https://github.com/tea7989/Leetcode-solutions/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/tea7989/Leetcode-solutions/tree/master/0120-triangle) |
 | [0368-largest-divisible-subset](https://github.com/tea7989/Leetcode-solutions/tree/master/0368-largest-divisible-subset) |
+| [0396-rotate-function](https://github.com/tea7989/Leetcode-solutions/tree/master/0396-rotate-function) |
 | [0416-partition-equal-subset-sum](https://github.com/tea7989/Leetcode-solutions/tree/master/0416-partition-equal-subset-sum) |
 | [0799-champagne-tower](https://github.com/tea7989/Leetcode-solutions/tree/master/0799-champagne-tower) |
 | [0806-domino-and-tromino-tiling](https://github.com/tea7989/Leetcode-solutions/tree/master/0806-domino-and-tromino-tiling) |
