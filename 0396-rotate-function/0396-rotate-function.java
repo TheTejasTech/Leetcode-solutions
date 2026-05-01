@@ -1,5 +1,4 @@
 class Solution {
-
     public int maxRotateFunction(int[] nums) {
         int sum = 0;
         int f0 = 0;
