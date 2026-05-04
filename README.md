@@ -6,6 +6,7 @@
 | ------- |
 | [0035-search-insert-position](https://github.com/tea7989/Leetcode-solutions/tree/master/0035-search-insert-position) |
 | [0036-valid-sudoku](https://github.com/tea7989/Leetcode-solutions/tree/master/0036-valid-sudoku) |
+| [0048-rotate-image](https://github.com/tea7989/Leetcode-solutions/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/tea7989/Leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/tea7989/Leetcode-solutions/tree/master/0075-sort-colors) |
 | [0085-maximal-rectangle](https://github.com/tea7989/Leetcode-solutions/tree/master/0085-maximal-rectangle) |
@@ -228,6 +229,7 @@
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/tea7989/Leetcode-solutions/tree/master/0043-multiply-strings) |
+| [0048-rotate-image](https://github.com/tea7989/Leetcode-solutions/tree/master/0048-rotate-image) |
 | [0067-add-binary](https://github.com/tea7989/Leetcode-solutions/tree/master/0067-add-binary) |
 | [0231-power-of-two](https://github.com/tea7989/Leetcode-solutions/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/tea7989/Leetcode-solutions/tree/master/0326-power-of-three) |
@@ -343,6 +345,7 @@
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/tea7989/Leetcode-solutions/tree/master/0036-valid-sudoku) |
+| [0048-rotate-image](https://github.com/tea7989/Leetcode-solutions/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/tea7989/Leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/tea7989/Leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0417-pacific-atlantic-water-flow](https://github.com/tea7989/Leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
