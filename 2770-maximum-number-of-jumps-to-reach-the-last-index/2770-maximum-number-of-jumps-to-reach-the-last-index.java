@@ -21,5 +21,6 @@ class Solution {
         }
 
         return t[0] < 0 ? -1 : t[0];
+
     }
 }
