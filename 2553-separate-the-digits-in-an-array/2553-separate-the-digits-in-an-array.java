@@ -1,6 +1,6 @@
 class Solution {
     public int[] separateDigits(int[] nums) {
-         List<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
         
         for (int num : nums) {
             List<Integer> temp = new ArrayList<>();
