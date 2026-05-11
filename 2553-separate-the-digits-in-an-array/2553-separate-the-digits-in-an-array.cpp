@@ -16,8 +16,8 @@ public:
             for (int i = temp.size() - 1; i >= 0; i--) {
                 result.push_back(temp[i]);
             }
-        }
-
+        } 
+        
         return result;
     }
 };
