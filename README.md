@@ -94,6 +94,7 @@
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/tea7989/Leetcode-solutions/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/tea7989/Leetcode-solutions/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2529-range-product-queries-of-powers](https://github.com/tea7989/Leetcode-solutions/tree/master/2529-range-product-queries-of-powers) |
+| [2553-separate-the-digits-in-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/2553-separate-the-digits-in-an-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/tea7989/Leetcode-solutions/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/tea7989/Leetcode-solutions/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2625-increment-submatrices-by-one](https://github.com/tea7989/Leetcode-solutions/tree/master/2625-increment-submatrices-by-one) |
@@ -224,6 +225,7 @@
 | [2324-find-triangular-sum-of-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/tea7989/Leetcode-solutions/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/tea7989/Leetcode-solutions/tree/master/2408-number-of-people-aware-of-a-secret) |
+| [2553-separate-the-digits-in-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/2553-separate-the-digits-in-an-array) |
 | [2751-robot-collisions](https://github.com/tea7989/Leetcode-solutions/tree/master/2751-robot-collisions) |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/tea7989/Leetcode-solutions/tree/master/2946-matrix-similarity-after-cyclic-shifts) |
 | [3336-water-bottles-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3336-water-bottles-ii) |
