@@ -37,6 +37,7 @@
 | [1293-three-consecutive-odds](https://github.com/tea7989/Leetcode-solutions/tree/master/1293-three-consecutive-odds) |
 | [1306-jump-game-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/1306-jump-game-iii) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/tea7989/Leetcode-solutions/tree/master/1335-maximum-candies-allocated-to-k-children) |
+| [1345-jump-game-iv](https://github.com/tea7989/Leetcode-solutions/tree/master/1345-jump-game-iv) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/tea7989/Leetcode-solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/tea7989/Leetcode-solutions/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/tea7989/Leetcode-solutions/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
@@ -311,6 +312,7 @@
 | [1015-smallest-integer-divisible-by-k](https://github.com/tea7989/Leetcode-solutions/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/tea7989/Leetcode-solutions/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/tea7989/Leetcode-solutions/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1345-jump-game-iv](https://github.com/tea7989/Leetcode-solutions/tree/master/1345-jump-game-iv) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/tea7989/Leetcode-solutions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/tea7989/Leetcode-solutions/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1500-count-largest-group](https://github.com/tea7989/Leetcode-solutions/tree/master/1500-count-largest-group) |
@@ -730,6 +732,7 @@
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/tea7989/Leetcode-solutions/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/tea7989/Leetcode-solutions/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1306-jump-game-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/1306-jump-game-iii) |
+| [1345-jump-game-iv](https://github.com/tea7989/Leetcode-solutions/tree/master/1345-jump-game-iv) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/tea7989/Leetcode-solutions/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/tea7989/Leetcode-solutions/tree/master/1559-detect-cycles-in-2d-grid) |
 | [2092-find-all-people-with-secret](https://github.com/tea7989/Leetcode-solutions/tree/master/2092-find-all-people-with-secret) |
