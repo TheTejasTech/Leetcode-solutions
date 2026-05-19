@@ -99,6 +99,7 @@
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/tea7989/Leetcode-solutions/tree/master/2515-shortest-distance-to-target-string-in-a-circular-array) |
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/tea7989/Leetcode-solutions/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2529-range-product-queries-of-powers](https://github.com/tea7989/Leetcode-solutions/tree/master/2529-range-product-queries-of-powers) |
+| [2540-minimum-common-value](https://github.com/tea7989/Leetcode-solutions/tree/master/2540-minimum-common-value) |
 | [2553-separate-the-digits-in-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/2553-separate-the-digits-in-an-array) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/tea7989/Leetcode-solutions/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/tea7989/Leetcode-solutions/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -206,6 +207,7 @@
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/tea7989/Leetcode-solutions/tree/master/1877-minimize-maximum-pair-sum-in-array) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/tea7989/Leetcode-solutions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/tea7989/Leetcode-solutions/tree/master/2392-successful-pairs-of-spells-and-potions) |
+| [2540-minimum-common-value](https://github.com/tea7989/Leetcode-solutions/tree/master/2540-minimum-common-value) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/tea7989/Leetcode-solutions/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/tea7989/Leetcode-solutions/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/tea7989/Leetcode-solutions/tree/master/3437-maximum-total-damage-with-spell-casting) |
@@ -330,6 +332,7 @@
 | [2274-keep-multiplying-found-values-by-two](https://github.com/tea7989/Leetcode-solutions/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2308-divide-array-into-equal-pairs](https://github.com/tea7989/Leetcode-solutions/tree/master/2308-divide-array-into-equal-pairs) |
 | [2429-design-a-food-rating-system](https://github.com/tea7989/Leetcode-solutions/tree/master/2429-design-a-food-rating-system) |
+| [2540-minimum-common-value](https://github.com/tea7989/Leetcode-solutions/tree/master/2540-minimum-common-value) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/tea7989/Leetcode-solutions/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/tea7989/Leetcode-solutions/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
 | [2784-check-if-array-is-good](https://github.com/tea7989/Leetcode-solutions/tree/master/2784-check-if-array-is-good) |
@@ -507,6 +510,7 @@
 | [2280-count-good-triplets-in-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/2280-count-good-triplets-in-an-array) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/tea7989/Leetcode-solutions/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/tea7989/Leetcode-solutions/tree/master/2394-count-subarrays-with-score-less-than-k) |
+| [2540-minimum-common-value](https://github.com/tea7989/Leetcode-solutions/tree/master/2540-minimum-common-value) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/tea7989/Leetcode-solutions/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2665-minimum-time-to-repair-cars](https://github.com/tea7989/Leetcode-solutions/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/tea7989/Leetcode-solutions/tree/master/2690-house-robber-iv) |
