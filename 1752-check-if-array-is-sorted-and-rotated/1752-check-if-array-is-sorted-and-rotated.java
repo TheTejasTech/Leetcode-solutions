@@ -1,6 +1,6 @@
 class Solution {
     public boolean check(int[] nums) {
-        final int n = nums.length;
+    final int n = nums.length;
     int rotates = 0;
 
     for (int i = 0; i < n; ++i)
