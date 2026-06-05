@@ -306,6 +306,7 @@
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/tea7989/Leetcode-solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
 | [3637-count-number-of-balanced-permutations](https://github.com/tea7989/Leetcode-solutions/tree/master/3637-count-number-of-balanced-permutations) |
+| [3753-total-waviness-of-numbers-in-range-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 | [3761-minimum-absolute-distance-between-mirror-pairs](https://github.com/tea7989/Leetcode-solutions/tree/master/3761-minimum-absolute-distance-between-mirror-pairs) |
 | [3783-mirror-distance-of-an-integer](https://github.com/tea7989/Leetcode-solutions/tree/master/3783-mirror-distance-of-an-integer) |
 ## Hash Table
@@ -810,6 +811,7 @@
 | [3660-jump-game-ix](https://github.com/tea7989/Leetcode-solutions/tree/master/3660-jump-game-ix) |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/tea7989/Leetcode-solutions/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/tea7989/Leetcode-solutions/tree/master/3742-maximum-path-score-in-a-grid) |
+| [3753-total-waviness-of-numbers-in-range-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 ## Shortest Path
 |  |
 | ------- |
