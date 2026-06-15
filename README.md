@@ -211,6 +211,7 @@
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/tea7989/Leetcode-solutions/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1861-rotating-the-box](https://github.com/tea7989/Leetcode-solutions/tree/master/1861-rotating-the-box) |
 | [1877-minimize-maximum-pair-sum-in-array](https://github.com/tea7989/Leetcode-solutions/tree/master/1877-minimize-maximum-pair-sum-in-array) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/tea7989/Leetcode-solutions/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/tea7989/Leetcode-solutions/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/tea7989/Leetcode-solutions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/tea7989/Leetcode-solutions/tree/master/2392-successful-pairs-of-spells-and-potions) |
@@ -991,6 +992,7 @@
 | ------- |
 | [0061-rotate-list](https://github.com/tea7989/Leetcode-solutions/tree/master/0061-rotate-list) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/tea7989/Leetcode-solutions/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/tea7989/Leetcode-solutions/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/tea7989/Leetcode-solutions/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
