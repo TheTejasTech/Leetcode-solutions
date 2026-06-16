@@ -249,6 +249,7 @@
 | [3379-transformed-array](https://github.com/tea7989/Leetcode-solutions/tree/master/3379-transformed-array) |
 | [3507-minimum-pair-removal-to-sort-array-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3507-minimum-pair-removal-to-sort-array-i) |
 | [3510-minimum-pair-removal-to-sort-array-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3510-minimum-pair-removal-to-sort-array-ii) |
+| [3612-process-string-with-special-operations-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3612-process-string-with-special-operations-i) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3790-fruits-into-baskets-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/tea7989/Leetcode-solutions/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
@@ -481,6 +482,7 @@
 | [3479-count-the-number-of-substrings-with-dominant-ones](https://github.com/tea7989/Leetcode-solutions/tree/master/3479-count-the-number-of-substrings-with-dominant-ones) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/tea7989/Leetcode-solutions/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| [3612-process-string-with-special-operations-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3612-process-string-with-special-operations-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3618-find-the-original-typed-string-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3629-total-characters-in-string-after-transformations-i) |
 | [3630-total-characters-in-string-after-transformations-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3630-total-characters-in-string-after-transformations-ii) |
