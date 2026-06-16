@@ -1,7 +1,4 @@
 class Solution {
-    // public static void nextchar(char a){
-    //     return 
-    // }
     public String processStr(String s) {
         StringBuilder result = new StringBuilder();
         for (char c : s.toCharArray()) {
