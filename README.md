@@ -318,6 +318,7 @@
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/tea7989/Leetcode-solutions/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3321-type-of-triangle](https://github.com/tea7989/Leetcode-solutions/tree/master/3321-type-of-triangle) |
 | [3336-water-bottles-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3336-water-bottles-ii) |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3462-vowels-game-in-a-string](https://github.com/tea7989/Leetcode-solutions/tree/master/3462-vowels-game-in-a-string) |
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/tea7989/Leetcode-solutions/tree/master/3464-maximize-the-distance-between-points-on-a-square) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/tea7989/Leetcode-solutions/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
@@ -451,6 +452,7 @@
 | [2415-count-the-number-of-ideal-arrays](https://github.com/tea7989/Leetcode-solutions/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2610-closest-prime-numbers-in-range](https://github.com/tea7989/Leetcode-solutions/tree/master/2610-closest-prime-numbers-in-range) |
 | [3001-apply-operations-to-maximize-score](https://github.com/tea7989/Leetcode-solutions/tree/master/3001-apply-operations-to-maximize-score) |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3629-minimum-jumps-to-reach-end-via-prime-teleportation](https://github.com/tea7989/Leetcode-solutions/tree/master/3629-minimum-jumps-to-reach-end-via-prime-teleportation) |
 ## String
 |  |
@@ -504,6 +506,7 @@
 | [3194-find-words-containing-character](https://github.com/tea7989/Leetcode-solutions/tree/master/3194-find-words-containing-character) |
 | [3233-maximize-the-number-of-partitions-after-operations](https://github.com/tea7989/Leetcode-solutions/tree/master/3233-maximize-the-number-of-partitions-after-operations) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/tea7989/Leetcode-solutions/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3396-valid-word](https://github.com/tea7989/Leetcode-solutions/tree/master/3396-valid-word) |
 | [3462-vowels-game-in-a-string](https://github.com/tea7989/Leetcode-solutions/tree/master/3462-vowels-game-in-a-string) |
 | [3474-lexicographically-smallest-generated-string](https://github.com/tea7989/Leetcode-solutions/tree/master/3474-lexicographically-smallest-generated-string) |
@@ -931,6 +934,7 @@
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/tea7989/Leetcode-solutions/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/tea7989/Leetcode-solutions/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/tea7989/Leetcode-solutions/tree/master/3307-find-the-maximum-sum-of-node-values) |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3348-smallest-divisible-digit-product-ii) |
 | [3474-lexicographically-smallest-generated-string](https://github.com/tea7989/Leetcode-solutions/tree/master/3474-lexicographically-smallest-generated-string) |
 | [3493-maximum-number-of-operations-to-move-ones-to-the-end](https://github.com/tea7989/Leetcode-solutions/tree/master/3493-maximum-number-of-operations-to-move-ones-to-the-end) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/tea7989/Leetcode-solutions/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
@@ -976,6 +980,7 @@
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/tea7989/Leetcode-solutions/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1980-find-unique-binary-string](https://github.com/tea7989/Leetcode-solutions/tree/master/1980-find-unique-binary-string) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/tea7989/Leetcode-solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [3348-smallest-divisible-digit-product-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3348-smallest-divisible-digit-product-ii) |
 ## Combinatorics
 |  |
 | ------- |
