@@ -291,6 +291,7 @@
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/tea7989/Leetcode-solutions/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/tea7989/Leetcode-solutions/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/tea7989/Leetcode-solutions/tree/master/1500-count-largest-group) |
+| [1510-stone-game-iv](https://github.com/tea7989/Leetcode-solutions/tree/master/1510-stone-game-iv) |
 | [1622-fancy-sequence](https://github.com/tea7989/Leetcode-solutions/tree/master/1622-fancy-sequence) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/tea7989/Leetcode-solutions/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1642-water-bottles](https://github.com/tea7989/Leetcode-solutions/tree/master/1642-water-bottles) |
@@ -844,6 +845,7 @@
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/tea7989/Leetcode-solutions/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/tea7989/Leetcode-solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1406-stone-game-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/1406-stone-game-iii) |
+| [1510-stone-game-iv](https://github.com/tea7989/Leetcode-solutions/tree/master/1510-stone-game-iv) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/tea7989/Leetcode-solutions/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/tea7989/Leetcode-solutions/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1628-count-submatrices-with-all-ones](https://github.com/tea7989/Leetcode-solutions/tree/master/1628-count-submatrices-with-all-ones) |
@@ -1099,6 +1101,7 @@
 | [0877-stone-game](https://github.com/tea7989/Leetcode-solutions/tree/master/0877-stone-game) |
 | [1140-stone-game-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/1406-stone-game-iii) |
+| [1510-stone-game-iv](https://github.com/tea7989/Leetcode-solutions/tree/master/1510-stone-game-iv) |
 | [3462-vowels-game-in-a-string](https://github.com/tea7989/Leetcode-solutions/tree/master/3462-vowels-game-in-a-string) |
 ## Design
 |  |
@@ -1166,9 +1169,19 @@
 | ------- |
 | [1140-stone-game-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/1406-stone-game-iii) |
+| [1510-stone-game-iv](https://github.com/tea7989/Leetcode-solutions/tree/master/1510-stone-game-iv) |
 ## Zero-Sum Game
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/1406-stone-game-iii) |
+| [1510-stone-game-iv](https://github.com/tea7989/Leetcode-solutions/tree/master/1510-stone-game-iv) |
+## Nim Game
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/tea7989/Leetcode-solutions/tree/master/1510-stone-game-iv) |
+## Sprague–Grundy Theorem
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/tea7989/Leetcode-solutions/tree/master/1510-stone-game-iv) |
 <!---LeetCode Topics End-->
