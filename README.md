@@ -354,6 +354,7 @@
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/tea7989/Leetcode-solutions/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0874-walking-robot-simulation](https://github.com/tea7989/Leetcode-solutions/tree/master/0874-walking-robot-simulation) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/tea7989/Leetcode-solutions/tree/master/1015-smallest-integer-divisible-by-k) |
+| [1096-brace-expansion-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/tea7989/Leetcode-solutions/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/tea7989/Leetcode-solutions/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1345-jump-game-iv](https://github.com/tea7989/Leetcode-solutions/tree/master/1345-jump-game-iv) |
@@ -476,6 +477,7 @@
 | [0796-rotate-string](https://github.com/tea7989/Leetcode-solutions/tree/master/0796-rotate-string) |
 | [0868-push-dominoes](https://github.com/tea7989/Leetcode-solutions/tree/master/0868-push-dominoes) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/0960-delete-columns-to-make-sorted-iii) |
+| [1096-brace-expansion-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/tea7989/Leetcode-solutions/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/tea7989/Leetcode-solutions/tree/master/1320-minimum-distance-to-type-a-word-using-two-fingers) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/tea7989/Leetcode-solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
@@ -662,6 +664,7 @@
 | [0628-maximum-product-of-three-numbers](https://github.com/tea7989/Leetcode-solutions/tree/master/0628-maximum-product-of-three-numbers) |
 | [0761-special-binary-string](https://github.com/tea7989/Leetcode-solutions/tree/master/0761-special-binary-string) |
 | [1018-largest-perimeter-triangle](https://github.com/tea7989/Leetcode-solutions/tree/master/1018-largest-perimeter-triangle) |
+| [1096-brace-expansion-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/tea7989/Leetcode-solutions/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/tea7989/Leetcode-solutions/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/tea7989/Leetcode-solutions/tree/master/1665-minimum-initial-energy-to-finish-tasks) |
@@ -817,6 +820,7 @@
 | ------- |
 | [0417-pacific-atlantic-water-flow](https://github.com/tea7989/Leetcode-solutions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/tea7989/Leetcode-solutions/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
+| [1096-brace-expansion-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/tea7989/Leetcode-solutions/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1306-jump-game-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/1306-jump-game-iii) |
 | [1345-jump-game-iv](https://github.com/tea7989/Leetcode-solutions/tree/master/1345-jump-game-iv) |
@@ -905,6 +909,7 @@
 |  |
 | ------- |
 | [0085-maximal-rectangle](https://github.com/tea7989/Leetcode-solutions/tree/master/0085-maximal-rectangle) |
+| [1096-brace-expansion-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1628-count-submatrices-with-all-ones](https://github.com/tea7989/Leetcode-solutions/tree/master/1628-count-submatrices-with-all-ones) |
 | [1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array](https://github.com/tea7989/Leetcode-solutions/tree/master/1633-minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/tea7989/Leetcode-solutions/tree/master/1653-minimum-deletions-to-make-string-balanced) |
@@ -988,6 +993,7 @@
 |  |
 | ------- |
 | [0401-binary-watch](https://github.com/tea7989/Leetcode-solutions/tree/master/0401-binary-watch) |
+| [1096-brace-expansion-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/tea7989/Leetcode-solutions/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1980-find-unique-binary-string](https://github.com/tea7989/Leetcode-solutions/tree/master/1980-find-unique-binary-string) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/tea7989/Leetcode-solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
