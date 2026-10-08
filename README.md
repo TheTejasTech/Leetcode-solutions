@@ -483,6 +483,7 @@
 | [0868-push-dominoes](https://github.com/tea7989/Leetcode-solutions/tree/master/0868-push-dominoes) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/tea7989/Leetcode-solutions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0960-delete-columns-to-make-sorted-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/0960-delete-columns-to-make-sorted-iii) |
+| [1021-remove-outermost-parentheses](https://github.com/tea7989/Leetcode-solutions/tree/master/1021-remove-outermost-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/tea7989/Leetcode-solutions/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/tea7989/Leetcode-solutions/tree/master/1302-delete-characters-to-make-fancy-string) |
@@ -921,6 +922,7 @@
 | [0085-maximal-rectangle](https://github.com/tea7989/Leetcode-solutions/tree/master/0085-maximal-rectangle) |
 | [0678-valid-parenthesis-string](https://github.com/tea7989/Leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/tea7989/Leetcode-solutions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+| [1021-remove-outermost-parentheses](https://github.com/tea7989/Leetcode-solutions/tree/master/1021-remove-outermost-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/1096-brace-expansion-ii) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/tea7989/Leetcode-solutions/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1628-count-submatrices-with-all-ones](https://github.com/tea7989/Leetcode-solutions/tree/master/1628-count-submatrices-with-all-ones) |
@@ -1217,6 +1219,7 @@
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/tea7989/Leetcode-solutions/tree/master/0678-valid-parenthesis-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/tea7989/Leetcode-solutions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+| [1021-remove-outermost-parentheses](https://github.com/tea7989/Leetcode-solutions/tree/master/1021-remove-outermost-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/tea7989/Leetcode-solutions/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/tea7989/Leetcode-solutions/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
 <!---LeetCode Topics End-->
