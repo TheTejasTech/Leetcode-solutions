@@ -51,6 +51,7 @@
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/tea7989/Leetcode-solutions/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1548-check-if-all-1s-are-at-least-length-k-places-away](https://github.com/tea7989/Leetcode-solutions/tree/master/1548-check-if-all-1s-are-at-least-length-k-places-away) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/tea7989/Leetcode-solutions/tree/master/1559-detect-cycles-in-2d-grid) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/tea7989/Leetcode-solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/tea7989/Leetcode-solutions/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/tea7989/Leetcode-solutions/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1590-make-sum-divisible-by-p](https://github.com/tea7989/Leetcode-solutions/tree/master/1590-make-sum-divisible-by-p) |
@@ -299,6 +300,7 @@
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/tea7989/Leetcode-solutions/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/tea7989/Leetcode-solutions/tree/master/1500-count-largest-group) |
 | [1510-stone-game-iv](https://github.com/tea7989/Leetcode-solutions/tree/master/1510-stone-game-iv) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/tea7989/Leetcode-solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1622-fancy-sequence](https://github.com/tea7989/Leetcode-solutions/tree/master/1622-fancy-sequence) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/tea7989/Leetcode-solutions/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1642-water-bottles](https://github.com/tea7989/Leetcode-solutions/tree/master/1642-water-bottles) |
@@ -659,6 +661,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0761-special-binary-string](https://github.com/tea7989/Leetcode-solutions/tree/master/0761-special-binary-string) |
 | [1382-balance-a-binary-search-tree](https://github.com/tea7989/Leetcode-solutions/tree/master/1382-balance-a-binary-search-tree) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/tea7989/Leetcode-solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [2280-count-good-triplets-in-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/2280-count-good-triplets-in-an-array) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3655-xor-after-range-multiplication-queries-ii) |
@@ -870,6 +873,7 @@
 | [1402-count-square-submatrices-with-all-ones](https://github.com/tea7989/Leetcode-solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1406-stone-game-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/tea7989/Leetcode-solutions/tree/master/1510-stone-game-iv) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/tea7989/Leetcode-solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/tea7989/Leetcode-solutions/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/tea7989/Leetcode-solutions/tree/master/1594-maximum-non-negative-product-in-a-matrix) |
 | [1628-count-submatrices-with-all-ones](https://github.com/tea7989/Leetcode-solutions/tree/master/1628-count-submatrices-with-all-ones) |
@@ -997,6 +1001,7 @@
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/tea7989/Leetcode-solutions/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/tea7989/Leetcode-solutions/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1382-balance-a-binary-search-tree](https://github.com/tea7989/Leetcode-solutions/tree/master/1382-balance-a-binary-search-tree) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/tea7989/Leetcode-solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/tea7989/Leetcode-solutions/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2872-maximum-number-of-k-divisible-components](https://github.com/tea7989/Leetcode-solutions/tree/master/2872-maximum-number-of-k-divisible-components) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/tea7989/Leetcode-solutions/tree/master/3307-find-the-maximum-sum-of-node-values) |
@@ -1012,6 +1017,7 @@
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/tea7989/Leetcode-solutions/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1218-lowest-common-ancestor-of-deepest-leaves](https://github.com/tea7989/Leetcode-solutions/tree/master/1218-lowest-common-ancestor-of-deepest-leaves) |
 | [1382-balance-a-binary-search-tree](https://github.com/tea7989/Leetcode-solutions/tree/master/1382-balance-a-binary-search-tree) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/tea7989/Leetcode-solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 ## Backtracking
 |  |
 | ------- |
@@ -1024,6 +1030,7 @@
 ## Combinatorics
 |  |
 | ------- |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/tea7989/Leetcode-solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/tea7989/Leetcode-solutions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/tea7989/Leetcode-solutions/tree/master/2415-count-the-number-of-ideal-arrays) |
@@ -1099,6 +1106,7 @@
 ## Memoization
 |  |
 | ------- |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/tea7989/Leetcode-solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/tea7989/Leetcode-solutions/tree/master/1986-largest-color-value-in-a-directed-graph) |
 ## Linked List
 |  |
@@ -1181,6 +1189,7 @@
 |  |
 | ------- |
 | [1382-balance-a-binary-search-tree](https://github.com/tea7989/Leetcode-solutions/tree/master/1382-balance-a-binary-search-tree) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/tea7989/Leetcode-solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 ## Rolling Hash
 |  |
 | ------- |
@@ -1190,6 +1199,7 @@
 | ------- |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/tea7989/Leetcode-solutions/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/tea7989/Leetcode-solutions/tree/master/1559-detect-cycles-in-2d-grid) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/tea7989/Leetcode-solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/tea7989/Leetcode-solutions/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3600-maximize-spanning-tree-stability-with-upgrades](https://github.com/tea7989/Leetcode-solutions/tree/master/3600-maximize-spanning-tree-stability-with-upgrades) |
@@ -1230,4 +1240,8 @@
 | [1021-remove-outermost-parentheses](https://github.com/tea7989/Leetcode-solutions/tree/master/1021-remove-outermost-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/tea7989/Leetcode-solutions/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [2267-check-if-there-is-a-valid-parentheses-string-path](https://github.com/tea7989/Leetcode-solutions/tree/master/2267-check-if-there-is-a-valid-parentheses-string-path) |
+## Fermat's Little Theorem
+|  |
+| ------- |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/tea7989/Leetcode-solutions/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 <!---LeetCode Topics End-->
