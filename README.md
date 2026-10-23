@@ -193,6 +193,7 @@
 | [3639-zero-array-transformation-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3639-zero-array-transformation-i) |
 | [3640-trionic-array-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3640-trionic-array-ii) |
 | [3643-zero-array-transformation-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3643-zero-array-transformation-ii) |
+| [3644-maximum-k-to-sort-a-permutation](https://github.com/tea7989/Leetcode-solutions/tree/master/3644-maximum-k-to-sort-a-permutation) |
 | [3647-zero-array-transformation-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/3647-zero-array-transformation-iii) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/tea7989/Leetcode-solutions/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/tea7989/Leetcode-solutions/tree/master/3651-minimum-cost-path-with-teleportations) |
@@ -779,6 +780,7 @@
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
+| [3644-maximum-k-to-sort-a-permutation](https://github.com/tea7989/Leetcode-solutions/tree/master/3644-maximum-k-to-sort-a-permutation) |
 ## Counting Sort
 |  |
 | ------- |
