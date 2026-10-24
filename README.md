@@ -317,6 +317,7 @@
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/tea7989/Leetcode-solutions/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2307-replace-non-coprime-numbers-in-array](https://github.com/tea7989/Leetcode-solutions/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/tea7989/Leetcode-solutions/tree/master/2324-find-triangular-sum-of-an-array) |
+| [2409-count-days-spent-together](https://github.com/tea7989/Leetcode-solutions/tree/master/2409-count-days-spent-together) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/tea7989/Leetcode-solutions/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2610-closest-prime-numbers-in-range](https://github.com/tea7989/Leetcode-solutions/tree/master/2610-closest-prime-numbers-in-range) |
 | [2649-count-total-number-of-colored-cells](https://github.com/tea7989/Leetcode-solutions/tree/master/2649-count-total-number-of-colored-cells) |
@@ -521,6 +522,7 @@
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/tea7989/Leetcode-solutions/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/tea7989/Leetcode-solutions/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/tea7989/Leetcode-solutions/tree/master/2346-largest-3-same-digit-number-in-string) |
+| [2409-count-days-spent-together](https://github.com/tea7989/Leetcode-solutions/tree/master/2409-count-days-spent-together) |
 | [2429-design-a-food-rating-system](https://github.com/tea7989/Leetcode-solutions/tree/master/2429-design-a-food-rating-system) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/tea7989/Leetcode-solutions/tree/master/2452-words-within-two-edits-of-dictionary) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/tea7989/Leetcode-solutions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
