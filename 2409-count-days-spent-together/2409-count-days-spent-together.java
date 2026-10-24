@@ -1,5 +1,4 @@
 class Solution {
-    
     private int findDayOfYear(String day, int[] cumMonthDays) {
         int month = Integer.parseInt(day.substring(0, 2));
         int date  = Integer.parseInt(day.substring(3));
@@ -23,6 +22,5 @@ class Solution {
         // Now, just find the overlap
         int overlapDays = Math.min(leaveAliceDay, leaveBobDay) - Math.max(arriveAliceDay, arriveBobDay) + 1;
 
-        return Math.max(overlapDays, 0);
-    }
+        return Math.max(overlapDays, 0);}
 }
