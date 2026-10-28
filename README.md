@@ -218,6 +218,7 @@
 | [3791-fruits-into-baskets-iii](https://github.com/tea7989/Leetcode-solutions/tree/master/3791-fruits-into-baskets-iii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/tea7989/Leetcode-solutions/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3834-minimum-operations-to-convert-all-elements-to-zero](https://github.com/tea7989/Leetcode-solutions/tree/master/3834-minimum-operations-to-convert-all-elements-to-zero) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/tea7989/Leetcode-solutions/tree/master/3882-minimum-xor-path-in-a-grid) |
 | [3903-smallest-stable-index-i](https://github.com/tea7989/Leetcode-solutions/tree/master/3903-smallest-stable-index-i) |
 ## Two Pointers
 |  |
@@ -469,6 +470,7 @@
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/tea7989/Leetcode-solutions/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/tea7989/Leetcode-solutions/tree/master/3651-minimum-cost-path-with-teleportations) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/tea7989/Leetcode-solutions/tree/master/3742-maximum-path-score-in-a-grid) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/tea7989/Leetcode-solutions/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Number Theory
 |  |
 | ------- |
@@ -785,6 +787,7 @@
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3644-maximum-k-to-sort-a-permutation](https://github.com/tea7989/Leetcode-solutions/tree/master/3644-maximum-k-to-sort-a-permutation) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/tea7989/Leetcode-solutions/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Counting Sort
 |  |
 | ------- |
@@ -929,6 +932,7 @@
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/tea7989/Leetcode-solutions/tree/master/3661-maximum-walls-destroyed-by-robots) |
 | [3742-maximum-path-score-in-a-grid](https://github.com/tea7989/Leetcode-solutions/tree/master/3742-maximum-path-score-in-a-grid) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/tea7989/Leetcode-solutions/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
+| [3882-minimum-xor-path-in-a-grid](https://github.com/tea7989/Leetcode-solutions/tree/master/3882-minimum-xor-path-in-a-grid) |
 ## Shortest Path
 |  |
 | ------- |
